@@ -9,6 +9,47 @@ FROM products_sales_cleaned
 GROUP BY product_category
 ORDER BY total_sales DESC;
 
+/* 
+
+Análise executiva dos resultados
+1. Domínio absoluto de “Power & Batteries”
+
+Total: 26.151.450 unidades vendidas — quase 7x mais que o segundo lugar.
+
+Isso sugere que produtos dessa categoria (baterias, powerbanks, carregadores universais, etc.) são itens de reposição e compra recorrente, com alta frequência e baixo ticket médio.
+
+Indica elasticidade de demanda alta (clientes compram mais quando há preço competitivo) e dependência operacional de volume.
+
+2. “Phones”, “Other Electronics” e “Laptops” — o núcleo premium
+
+“Phones” (3.729.550) e “Laptops” (3.416.450) ocupam o núcleo de receita por ticket alto, embora com volume menor.
+
+São produtos de decisão mais longa, impactados por promoções sazonais (Black Friday, lançamentos).
+
+Estratégias de marketing aqui devem focar em diferenciação de valor, não apenas desconto.
+
+3. “Cameras”, “Chargers & Cables”, “Wearables” e “TV & Display”
+
+Faixa intermediária: 700k a 800k unidades.
+
+Mostram um equilíbrio entre volume e valor agregado, geralmente com bom potencial de upsell (ex: acessórios de câmera, upgrades de smartwatch).
+
+4. Cauda longa: “Storage”, “Printers”, “Networking”, “Headphones”, “Speakers”, “Gaming”, “Smart Home”
+
+Menor volume de vendas, mas alto potencial de margem, especialmente em “Gaming” e “Smart Home”, que são categorias aspiracionais.
+
+Produtos de nicho, com público segmentado, muitas vezes com alta fidelidade à marca e disposição a pagar mais.
+
+Conclusão Estratégica
+Categoria	Interpretação Estratégica
+Power & Batteries	Categoria de alto giro e grande dependência de volume. Otimizar logística e estoques é essencial.
+Phones & Laptops	Segmentos de alto valor. Estratégias de marketing e bundling (ex: acessórios, garantias) aumentam margens.
+Wearables & Displays	Segmentos de crescimento emergente — ótimo foco para promoções cruzadas.
+Smart Home & Gaming	Nichos com margem alta e potencial de marketing. Focar em awareness e reviews de qualidade.
+
+Nosso crescimento é sustentado por produtos de alto giro como baterias, mas o verdadeiro ganho de margem virá de categorias de ticket alto e alta diferenciação — especialmente em Laptops, Phones e Smart Devices. Precisamos equilibrar volume operacional e valor agregado.
+*/
+
 -- Qual é a relação entre vendas e classificação média (product_rating) — produtos mais bem avaliados vendem mais? 
 
 SELECT 
@@ -18,6 +59,23 @@ FROM products_sales_cleaned
 WHERE product_rating IS NOT NULL
 GROUP BY product_rating
 ORDER BY total_sales DESC;
+
+/*
+Correlação positiva até 4.8:
+Produtos bem avaliados vendem significativamente mais. A nota 4.8 domina o ranking, com volume 8x maior que a média das demais faixas.
+Isso indica que reputação e confiança são motores de venda — reviews são o novo "boca a boca digital".
+
+Queda abrupta após 4.5:
+Mesmo uma pequena queda de rating (ex: 4.8 → 4.6) já impacta fortemente a conversão.
+Isso sugere sensibilidade extrema do consumidor a avaliações, especialmente em categorias competitivas.
+
+Produtos 5.0 vendendo pouco:
+Nota perfeita não garante volume — pode indicar produtos novos (poucos reviews) ou nicho especializado.
+Aqui o foco deve ser aumentar visibilidade e awareness, não desconto.
+
+Ratings baixos (<3.5):
+Esses produtos praticamente não vendem — devem ser revistos ou retirados.
+Estratégias de melhoria de qualidade ou substituição são mais eficazes que tentar empurrar via preço.*/
 
 -- Quais produtos são Best Sellers e por que (preço, desconto, avaliações, cupons)?
 
@@ -108,6 +166,19 @@ WHERE discounted_price > 0 AND original_price > discounted_price
 GROUP BY discount_percentage
 ORDER BY discount_percentage;
 
+/* Descontos moderados impulsionam vendas com maior eficiência.
+Faixas em torno de 40–45% parecem o ponto de maior elasticidade de demanda.
+
+Descontos muito altos perdem eficiência marginal.
+A partir de 50%, o retorno em volume de vendas não cresce proporcionalmente.
+
+Preço não é o único fator de conversão.
+Produtos com alto desconto mas baixa venda podem carecer de confiança (nota baixa, poucos reviews) ou relevância de marca.
+
+Sugestão de política de desconto inteligente:
+Priorizar descontos médios em produtos bem avaliados para maximizar ROI de promoções.*/
+
+
 -- Qual é o impacto de cupons e descontos na conversão? 
 
 SELECT 
@@ -117,6 +188,21 @@ SELECT
 	COUNT(*) AS num_products
 FROM products_sales_cleaned
 GROUP BY has_coupon;
+
+/*Interpretação executiva
+
+Os resultados mostram que a simples presença de cupons não garante maior volume de vendas.
+Apesar de existir uma variedade enorme de tipos de cupons (“Save $...”, “Save %...”), o desempenho médio em vendas varia muito — e a maioria apresenta médias abaixo ou próximas do grupo “No Coupon” (sem cupom), que registrou cerca de 1.313 vendas médias com nota média 44 e mais de 40 mil produtos (base dominante).
+
+Isso indica que:
+
+Produtos sem cupom continuam dominando o volume total de vendas — sugerindo que o desconto isolado não é o principal gatilho de compra.
+
+Cupons específicos em valor fixo baixo (ex: “Save $0.33”, “Save $2.00”, “Save $6.00”) às vezes apresentam picos localizados de vendas muito maiores (ex: até 20.000 em um caso), mas isso se deve mais a produtos pontuais de alto giro do que à política de cupom em si.
+
+Cupons percentuais (“Save 10%”, “Save 20%”, “Save 50%”) mostram desempenho mediano ou baixo, sem padrão claro de aumento de vendas proporcional ao desconto.
+
+A avaliação média dos produtos com cupom tende a permanecer próxima da média geral (entre 43 e 46), o que indica que o uso de cupom não afeta diretamente a satisfação do cliente.*/
 
 -- Quais categorias têm maior variação de preço médio em relação ao preço original (price elasticity)? 
 
@@ -131,6 +217,31 @@ WHERE original_price > 0
 GROUP BY product_category
 ORDER BY avg_price_variation_pct DESC;
 
+/*Interpretação executiva
+
+Os resultados revelam um cenário heterogêneo de elasticidade de preços entre categorias, indicando que nem todos os produtos eletrônicos reagem da mesma forma a descontos.
+
+Categorias mais elásticas (variação positiva alta):
+
+Speakers (+11,75%), Storage (+10,62%) e Chargers & Cables (+9,6%) apresentam os maiores níveis de variação média de preço — sinal de ajustes dinâmicos e competitivos.
+Isso normalmente indica que essas categorias respondem bem a descontos, possivelmente por serem itens complementares e com alta sensibilidade a preço.
+Pequenas reduções de preço tendem a estimular a compra imediata, especialmente em acessórios e produtos de reposição.
+
+Categorias com elasticidade moderada:
+
+Gaming (+5,36%) e Power & Batteries (+4,76%) mostram variação controlada, o que pode indicar equilíbrio entre oferta, demanda e valor percebido.
+Nessas categorias, o preço é importante, mas a marca e o desempenho técnico ainda pesam fortemente na decisão de compra.
+
+Categorias inelásticas (variação próxima de zero ou negativa):
+
+Wearables (+2,92%), Smart Home (+1,88%), e especialmente as categorias com valores negativos, como Phones (-8,66%), Laptops (-13,95%), Networking (-31,13%) e TV & Display (-40,75%), revelam baixa elasticidade de preço.
+Ou seja: mesmo com descontos, o impacto nas vendas é limitado.
+Esses produtos costumam ter alto valor agregado, marcas fortes e ciclos de compra mais longos — fatores que reduzem a sensibilidade ao preço.
+
+Anomalia crítica:
+
+A categoria Printers & Scanners (-74,69%) mostra uma variação negativa extrema — o preço médio com desconto é maior que o preço original, o que indica dados inconsistentes ou erros de cadastro (ex: inversão entre “original_price” e “discounted_price”).
+Isso merece auditoria de dados imediata, pois distorce qualquer análise de elasticidade.*/
 
 -- Produtos com grandes descontos mantêm boas avaliações? 
 
@@ -149,6 +260,14 @@ GROUP BY
 	END
 ORDER BY avg_rating DESC;
 
+/*Os resultados mostram uma diferença muito pequena entre as avaliações médias:
+
+Grupo de desconto	Avaliação média
+High Discount (30%+)	44,31
+Low/Medium Discount	44,01
+
+Essa diferença de apenas 0,3 pontos (numa escala de 0 a 50) é estatisticamente irrelevante — ou seja, os produtos com grandes descontos não têm avaliações significativamente melhores nem piores que os demais.*/
+
 -- 3. Comportamento do Cliente e Engajamento 
 
 -- Quais categorias possuem maior número de reviews por produto — e isso indica engajamento real ou apenas volume de vendas? 
@@ -161,6 +280,26 @@ SELECT
 FROM products_sales_cleaned
 GROUP BY product_category
 ORDER BY review_to_sales_ratio DESC;
+
+/*Gaming e Headphones lideram em engajamento desproporcional.
+Ambas as categorias têm altíssimo volume de reviews em relação às vendas, com mais de 250 avaliações para cada venda média recente.
+Isso indica um nível de engajamento atípico, possivelmente resultado de:
+
+Comunidades muito ativas (gamers e audiófilos tendem a comentar e comparar produtos).
+
+Produtos antigos com longos históricos de vendas, acumulando reviews.
+
+Maior propensão à recomendação boca a boca.
+
+Smart Home e Storage aparecem como intermediárias.
+São categorias com engajamento considerável — cada produto recebe dezenas de reviews para cada venda média — sugerindo interesse crescente, mas menor fidelidade emocional do consumidor.
+
+Power & Batteries e Wearables têm o menor engajamento relativo.
+Apesar de alto volume de vendas, essas categorias têm baixo número de reviews por unidade vendida (7,7 e 13,5 respectivamente).
+Isso indica um padrão de consumo utilitário, em que o cliente compra e esquece, sem grande envolvimento com a marca.
+
+Correlação inversa: alto volume de vendas tende a reduzir o engajamento por unidade.
+Produtos mais massificados (como baterias e cabos) geram menos avaliações por compra — o que é natural, pois o consumidor só comenta quando algo surpreende (positiva ou negativamente).*/
 	
 
 -- Há uma tendência de melhores avaliações em produtos mais caros? 
@@ -181,17 +320,18 @@ SELECT
 FROM products_sales_cleaned
 GROUP BY is_best_seller;
 
--- 4. Insights Operacionais 
+/*
+Produtos com selos de confiança (“Best Seller”, “Amazon’s”) ou promoções exclusivas e limitadas tendem a apresentar avaliações mais altas.
+Isso sugere que:
 
--- Qual é o percentual de produtos sem Buy Box disponível (indicando possível problema de estoque ou preço)? 
+O selo pode aumentar a percepção de qualidade, mesmo que o produto não tenha características intrinsecamente melhores.
 
-SELECT
-	 COUNT(*) * 100.0 / SUM(COUNT(*)) OVER() AS pct_no_buybox
-FROM products_sales_cleaned
-WHERE buy_box_availability IS NULL;
+Há um efeito psicológico de validação social (“se é Best Seller, deve ser bom”).
 
+Por outro lado, descontos comuns não aumentam a nota — o consumidor pode associá-los à tentativa de escoar estoque.
+*/
 
--- 5. Oportunidades Estratégicas 
+-- 4. Oportunidades Estratégicas 
 
 -- Quais produtos ou categorias estão com alto rating e baixo volume de vendas (potencial de marketing)? 
 
@@ -211,6 +351,20 @@ CROSS JOIN avg_sales AS s
 WHERE p.product_rating >= 4.5
 	AND p.purchased_last_month < s.avg_sales_last_month
 ORDER BY p.product_rating DESC;
+
+/*
+Esses produtos combinam alta qualidade percebida com baixa tração comercial, o que os torna perfeitos para estratégias de alavancagem de marketing direcionado:
+
+Investir em campanhas de awareness para produtos com avaliação máxima e baixa exposição (ex: Zenbook, Bose QuietComfort Ultra).
+
+Explorar storytelling de qualidade — mostrar reviews reais, uso prático e diferenciais técnicos.
+
+Segmentar anúncios para nichos específicos: gamers, criadores de conteúdo, profissionais criativos, etc.
+
+Testar bundling — combinar produtos de baixa venda com best-sellers da mesma categoria.
+
+Verificar o ROI potencial com uma métrica de “Elasticidade de Marketing”: quantas vendas adicionais são necessárias para justificar a promoção de cada produto.
+*/
 
 -- Onde há descontos altos mas vendas baixas (possível problema de percepção ou competitividade)? 
 
