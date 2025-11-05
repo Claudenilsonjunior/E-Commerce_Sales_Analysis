@@ -101,14 +101,12 @@ Criar um cluster “Emerging Best Sellers”: produtos com alto rating, desconto
 -- Existe uma correlação entre desconto (%) e aumento de vendas? 
 
 SELECT
-
-ROUND(((original_price - discounted_price) / NULLIF (original_price, 0)) * 100, 0) AS discount_pct,
-AVG (purchased_last_month) AS avg_sales
-
+	discount_percentage,
+	AVG (purchased_last_month) AS avg_sales
 FROM products_sales_cleaned
 WHERE discounted_price > 0 AND original_price > discounted_price
-GROUP BY ROUND(((original_price - discounted_price) / NULLIF (original_price, 0)) * 100, 0)
-ORDER BY discount_pct;
+GROUP BY discount_percentage
+ORDER BY discount_percentage;
 
 -- Qual é o impacto de cupons e descontos na conversão? 
 
@@ -123,52 +121,131 @@ GROUP BY has_coupon;
 -- Quais categorias têm maior variação de preço médio em relação ao preço original (price elasticity)? 
 
 SELECT
-	product_category,
-	AVG(original_price) AS avg_original,
-	AVG(discounted_price) AS avg_discounted,
-	ROUND((AVG(original_price) - AVG(discounted_price)) / AVG(original_price) * 100, 2) AS avg_discounted_pct
+    product_category,
+    ROUND(AVG(((original_price - discounted_price) / NULLIF(original_price, 0)) * 100), 2) AS avg_price_variation_pct,
+    ROUND(AVG(original_price), 2) AS avg_original_price,
+    ROUND(AVG(discounted_price), 2) AS avg_discounted_price,
+    COUNT(*) AS product_count
 FROM products_sales_cleaned
+WHERE original_price > 0
 GROUP BY product_category
-ORDER BY avg_discounted_pct DESC;
+ORDER BY avg_price_variation_pct DESC;
+
 
 -- Produtos com grandes descontos mantêm boas avaliações? 
 
 SELECT
 	CASE
-		WHEN ((original_price - discounted_price) / original_price) * 100 >= 30 THEN 'High Discount (30%+)'
+		WHEN discount_percentage >= 30 THEN 'High Discount (30%+)'
 		ELSE 'Low/Medium Discount'
 	END AS discount_group,
 	AVG(product_rating) AS avg_rating
 FROM products_sales_cleaned
 WHERE original_price > 0 
-GROUP BY discount_group;
-
+GROUP BY 	
+	CASE
+		WHEN discount_percentage >= 30 THEN 'High Discount (30%+)'
+		ELSE 'Low/Medium Discount'
+	END
+ORDER BY avg_rating DESC;
 
 -- 3. Comportamento do Cliente e Engajamento 
 
 -- Quais categorias possuem maior número de reviews por produto — e isso indica engajamento real ou apenas volume de vendas? 
 
 SELECT
+	product_category,
+	AVG(total_reviews) AS avg_reviews,
+	AVG(purchased_last_month) AS avg_sales,
+	ROUND(AVG(total_reviews) / NULLIF(AVG(purchased_last_month),0), 2) AS review_to_sales_ratio
+FROM products_sales_cleaned
+GROUP BY product_category
+ORDER BY review_to_sales_ratio DESC;
 	
 
 -- Há uma tendência de melhores avaliações em produtos mais caros? 
 
+SELECT 
+    CASE 
+        WHEN discounted_price >= PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY discounted_price) 
+        THEN 'High Price' ELSE 'Normal/Low Price' 
+    END AS price_segment,
+    AVG(product_rating) AS avg_rating
+FROM products_sales_cleaned;
+
 -- O selo de Best Seller influencia a nota média dos produtos? 
+
+SELECT
+	is_best_seller,
+	AVG(product_rating) AS avg_rating
+FROM products_sales_cleaned
+GROUP BY is_best_seller;
 
 -- 4. Insights Operacionais 
 
 -- Qual é o percentual de produtos sem Buy Box disponível (indicando possível problema de estoque ou preço)? 
 
--- Existe diferença significativa de entregas estimadas entre categorias (impactando conversão)? 
+SELECT
+	 COUNT(*) * 100.0 / SUM(COUNT(*)) OVER() AS pct_no_buybox
+FROM products_sales_cleaned
+WHERE buy_box_availability IS NULL;
 
--- Quais produtos ou categorias têm selo de sustentabilidade e como isso afeta suas vendas e avaliações? 
 
 -- 5. Oportunidades Estratégicas 
 
 -- Quais produtos ou categorias estão com alto rating e baixo volume de vendas (potencial de marketing)? 
 
+WITH avg_sales AS(
+SELECT
+	AVG(purchased_last_month) AS avg_sales_last_month
+FROM products_sales_cleaned
+)
+
+SELECT DISTINCT
+	p.product_title,
+	p.product_category,
+	p.product_rating,
+	p.purchased_last_month
+FROM products_sales_cleaned AS p
+CROSS JOIN avg_sales AS s
+WHERE p.product_rating >= 4.5
+	AND p.purchased_last_month < s.avg_sales_last_month
+ORDER BY p.product_rating DESC;
+
 -- Onde há descontos altos mas vendas baixas (possível problema de percepção ou competitividade)? 
+
+WITH avg_sales AS(
+SELECT
+	AVG(purchased_last_month) AS avg_sales_last_month
+FROM products_sales_cleaned
+)
+
+SELECT DISTINCT
+	p.product_title,
+	p.product_category,
+	p.discount_percentage,
+	p.purchased_last_month
+FROM products_sales_cleaned AS p
+CROSS JOIN avg_sales AS s
+WHERE p.discount_percentage >= 30
+	AND p.purchased_last_month < s.avg_sales_last_month
+ORDER BY p.discount_percentage DESC;
 
 -- Que produtos poderiam ser indicados para promoção ou destaque na home?
 
+WITH avg_sales AS (
+    SELECT AVG(purchased_last_month) AS avg_sales_last_month
+    FROM products_sales_cleaned
+)
+SELECT DISTINCT
+    p.product_title, 
+    p.product_category, 
+    p.product_rating, 
+    p.purchased_last_month
+FROM products_sales_cleaned AS p
+CROSS JOIN avg_sales
+WHERE p.product_rating >= 4.2 
+  AND p.purchased_last_month BETWEEN 
+      (avg_sales.avg_sales_last_month * 0.5) AND avg_sales.avg_sales_last_month
+ORDER BY p.product_rating DESC;
 
