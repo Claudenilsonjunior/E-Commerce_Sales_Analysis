@@ -85,24 +85,41 @@ This report presents the results of our analysis — highlighting actionable ins
 <table>
   <tr>
     <td>
-      <strong>Sales and Product Performance</strong>
+      <h3>Sales and Product Performance</h3>
       <ol>
-        <li>Electronic Product Category Performance (Last Month) <ul>
-            <br>The analysis of electronic product sales over the last month reveals a strong concentration in a few key categories, highlighting major opportunities for investment and portfolio optimization.<br>
-          <strong>🥇 Top-Selling Categories</strong><br>
+        <li>
+          <strong>Electronic Product Category Performance (Last Month)</strong>
+          <p>
+            The analysis of electronic product sales over the last month reveals a strong concentration in a few key categories, highlighting major opportunities for investment and portfolio optimization.
+          </p>
+
+          <h4>🥇 Top-Selling Categories</h4>
+          <ul>
             <li><strong>Other Electronics</strong> (2.66M units) and <strong>Laptops</strong> (2.35M units) dominate the market, together accounting for over 40% of the total sales volume.</li>
             <li>“Other Electronics” likely encompasses a wide range of fast-moving items (such as accessories, parts, or popular gadgets). This suggests a broad and fragmented mix with potential for better segmentation and focus on specific subcategories.</li>
-            <li>Laptops maintain consistent demand, reinforcing the ongoing impact of remote work and mobility as key consumption drivers. </li>
-          <strong>📈 Stable Growth Segments</strong>
-            <li><strong>Phones (1.49M)</strong> and <strong>Power & Batteries (1.37M)</strong> remain pillars of consumer demand, reflecting the regular renewal of mobile devices and the constant replacement of essential accessories.
-            <li>These two groups represent recurring consumption and offer opportunities for cross-sell strategies (e.g., smartphone + power bank bundles). </li>
-          <strong>⚙️ Niche but Strategic Categories</strong>
+            <li>Laptops maintain consistent demand, reinforcing the ongoing impact of remote work and mobility as key consumption drivers.</li>
+          </ul>
+
+          <h4>📈 Stable Growth Segments</h4>
+          <ul>
+            <li><strong>Phones (1.49M)</strong> and <strong>Power & Batteries (1.37M)</strong> remain pillars of consumer demand, reflecting the regular renewal of mobile devices and the constant replacement of essential accessories.</li>
+            <li>These two groups represent recurring consumption and offer opportunities for cross-sell strategies (e.g., smartphone + power bank bundles).</li>
+          </ul>
+
+          <h4>⚙️ Niche but Strategic Categories</h4>
+          <ul>
             <li><strong>Chargers & Cables (576K)</strong>, <strong>Cameras (498K)</strong>, and <strong>TV & Display (492K)</strong> show moderate volumes, suggesting stable markets with potentially high margins, especially when tied to premium products.</li>
             <li><strong>Storage, Printers & Scanners, and Networking</strong> appear to be more <strong>B2B-oriented</strong> or <strong>corporate</strong> segments, suitable for targeted campaigns aimed at businesses and home offices.</li>
-          <strong>🎧 Low Volume, High Value Potential</strong>
-            <li><strong>Headphones, Speakers, Wearables, Gaming, and Smart Home</strong> together account for less than 10% of total sales. </li>
+          </ul>
+
+          <h4>🎧 Low Volume, High Value Potential</h4>
+          <ul>
+            <li><strong>Headphones, Speakers, Wearables, Gaming, and Smart Home</strong> together account for less than 10% of total sales.</li>
             <li>Despite their lower volume, these are high-margin, innovation-driven categories — especially wearables and smart home products, which align with global trends in connectivity and automation.</li>
             <li>It’s recommended to monitor the growth of these categories closely, as they may signal shifts in consumer behavior in the coming quarters.</li>
           </ul>
         </li>
-        
+      </ol>
+    </td>
+  </tr>
+</table>
