@@ -3,7 +3,7 @@
     <td width="1440">
       <h2 align="center">Client Background</h2>
       <body>
-        <strong>TechStore</strong> is a USl-based e-commerce retailer specializing in consumer electronics and smart devices. Founded in 2019, the company has rapidly expanded its online presence, offering a curated selection of gadgets, accessories, and home technology to customers across Europe and North America. <br>
+        <strong>TechStore</strong> is a US-based e-commerce retailer specializing in consumer electronics and smart devices. Founded in 2019, the company has rapidly expanded its online presence, offering a curated selection of gadgets, accessories, and home technology to customers across Europe and North America. <br>
         <br>
         Over the past few years, TechStore has faced increased competition from both local and international marketplaces, pushing the company to rely more heavily on data-driven decision-making to optimize pricing, marketing, and inventory strategies.<br>
         <br>The company’s product catalog exceeds <strong>42,000 items</strong>, covering diverse categories such as audio equipment, mobile devices, computer accessories, and smart home solutions. TechStore’s operations generate thousands of transactions monthly, providing rich datasets that capture sales trends, customer ratings, discount strategies, and product engagement metrics.
