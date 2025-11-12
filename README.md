@@ -29,8 +29,38 @@ This report presents the results of our analysis — highlighting actionable ins
   <tr>
     <div width="920">
       <h1 align="center">Executive Summary</h1>
-
-      
+<td width="460" valign="top">
+        <ol>
+          <li>
+            <strong>Sales and Product Performance:</strong>
+            <ul>
+              <li>Other Electronics (2.66M units) and Laptops (2.35M units) dominate the market, together accounting for over 40% of the total sales volume.</li>
+              <li>Phones (1.49M) and Power & Batteries (1.37M) remain key pillars of consumer demand, reflecting the renewal of mobile devices and the constant replacement of essential accessories.</li>
+              <li>Products with ratings between 4.6 and 4.9 show the highest average sales volumes — ranging from approximately 1,600 to 3,300 units.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Pricing and Discount Strategy</strong>
+            <ul>
+              <li>Moderate discounts (5–8%) show a high conversion potential</li>
+              <li>Products with active coupons (of any type) sell significantly more on average than those without coupons (1,379 units).</li>
+              <li>Electronics categories show an average price variation (elasticity) between 4.6% and 10.9%, indicating a relatively stable market with moderate promotional fluctuations.</li>
+            </ul>
+          </li>
+        </ol>
+      </td>
+      <td width="460" valign="top">
+        <ol start="3">
+          <li>
+            <strong>Customer Behavior and Engagement</strong>
+            <ul>
+              <li>The <strong>Storage</strong> and Gaming categories stand out with the highest review-to-sales ratios, suggesting strong consumer engagement. These segments typically attract a more technical and participative audience that reviews products in detail — a sign of active and influential communities around these categories.</li>
+              <li>Products classified as Normal/Low Price have higher average ratings (4.30) than High Price ones (4.02). This suggests that consumers value cost-effectiveness more than luxury or technical sophistication, at least within the context of electronic e-commerce.</li>
+              <li>From an executive standpoint, the data show that the “<strong>Best Seller</strong>” label is directly associated with a higher perception of quality — though not in isolation. It functions as part of a broader set of trust signals within the shopping environment.</li>
+            </ul>
+          </li>
+        </ol>
+      </td> 
     </div>
   </tr>
 </table>
