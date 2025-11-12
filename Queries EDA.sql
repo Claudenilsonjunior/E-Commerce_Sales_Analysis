@@ -1,4 +1,6 @@
-﻿/*
+﻿
+
+/*
 1. Desempenho de Vendas e Produtos 
 
 Quais são as categorias de produtos eletrônicos com maior volume de vendas (purchased_last_month)? */
@@ -79,14 +81,17 @@ Estratégias de melhoria de qualidade ou substituição são mais eficazes que t
 
 -- Quais produtos são Best Sellers e por que (preço, desconto, avaliações, cupons)?
 
+
 WITH base AS (
     SELECT 
         CASE 
-            WHEN LOWER(is_best_seller) LIKE '%best seller%' THEN 'Best Seller'
+            WHEN LOWER(is_best_seller) LIKE '%best seller%' 
+                 OR LOWER(is_best_seller) LIKE '%amazon%' 
+            THEN 'Best Seller'
             ELSE 'Others'
         END AS seller_group,
-        product_rating,
-        discount_percentage,
+        CAST(product_rating AS FLOAT) / 10 AS product_rating,
+        CAST(discount_percentage AS FLOAT) / 100 AS discount_percentage,
         original_price,
         discounted_price,
         has_coupon,
@@ -96,14 +101,23 @@ WITH base AS (
 SELECT 
     seller_group,
     ROUND(AVG(product_rating), 2) AS avg_rating,
-    ROUND(AVG(discount_percentage), 2) AS avg_discount_pct,
+    ROUND(AVG(discount_percentage), 2) / 100 AS avg_discount_pct,
     ROUND(AVG(original_price), 2) AS avg_original_price,
     ROUND(AVG(discounted_price), 2) AS avg_discounted_price,
     ROUND(AVG(purchased_last_month), 0) AS avg_sales_last_month,
-    ROUND(SUM(CASE WHEN LOWER(has_coupon) LIKE '%coupon%' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS pct_with_coupon
+    ROUND(
+        SUM(CASE 
+                WHEN LOWER(has_coupon) NOT LIKE '%no coupon%' THEN 1 
+                ELSE 0 
+            END) * 100.0 / COUNT(*),
+    2) / 100 AS pct_with_coupon
 FROM base
 GROUP BY seller_group
 ORDER BY seller_group DESC;
+
+
+
+
 
 
 /* 1. Qualidade percebida (Rating médio)
@@ -304,13 +318,30 @@ Produtos mais massificados (como baterias e cabos) geram menos avaliações por 
 
 -- Há uma tendência de melhores avaliações em produtos mais caros? 
 
+WITH price_distribution AS (
+    SELECT 
+        product_title,
+        discounted_price,
+        product_rating,
+        PERCENTILE_CONT(0.75) 
+            WITHIN GROUP (ORDER BY discounted_price) 
+            OVER () AS price_75th
+    FROM products_sales_cleaned
+)
 SELECT 
     CASE 
-        WHEN discounted_price >= PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY discounted_price) 
-        THEN 'High Price' ELSE 'Normal/Low Price' 
+        WHEN discounted_price >= price_75th THEN 'High Price'
+        ELSE 'Normal/Low Price'
     END AS price_segment,
     AVG(product_rating) AS avg_rating
-FROM products_sales_cleaned;
+FROM price_distribution
+GROUP BY 
+    CASE 
+        WHEN discounted_price >= price_75th THEN 'High Price'
+        ELSE 'Normal/Low Price'
+    END
+ORDER BY avg_rating DESC;
+
 
 -- O selo de Best Seller influencia a nota média dos produtos? 
 
