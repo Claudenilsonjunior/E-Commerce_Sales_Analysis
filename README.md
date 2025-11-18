@@ -367,84 +367,21 @@ Gaming audiences tend to respond well to short and aggressive discounts — a st
           <ul>
             <li>Rather than competing solely on luxury, high-priced brands should emphasize storytelling around quality, durability, and post-sale support — attributes that justify the higher cost and reduce post-purchase dissatisfaction.</li>
           </ul>
-          <h4>🎧 Low Volume, High Value Potential</h4>
-          <ul>
-            <li><strong>Headphones, Speakers, Wearables, Gaming, and Smart Home</strong> together account for less than 10% of total sales.</li>
-            <li>Despite their lower volume, these are high-margin, innovation-driven categories — especially wearables and smart home products, which align with global trends in connectivity and automation.</li>
-            <li>It’s recommended to monitor the growth of these categories closely, as they may signal shifts in consumer behavior in the coming quarters.</li>
-          </ul>
-        </li>
       </ol>
       <ol>
         <li>
-          <strong>Relationship Between Product Ratings and Sales</strong>
           <p>
-            The correlation between average rating (product_rating) and average monthly sales volume (purchased_last_month) shows a moderately positive pattern: higher-rated products tend to sell more, but not in a perfectly linear way. There are subtle dynamics that reveal consumer behavior and product positioning.
+            Executively, the data shows that the “Best Seller” badge is directly associated with a higher perception of quality — but not in isolation. It operates as part of a broader set of trust signals within the shopping experience.
           </p>
-          <h4>📊 Key Insights</h4>
+          <p>Products with the “Best Seller” badge have an average rating of about 4.46, higher than regular products (4.22). This difference, while seemingly small, is meaningful in e-commerce: every extra tenth of a star can represent thousands of additional conversions in competitive categories.</p>
+          <h4>The badge acts as a credibility booster.</h4>
           <ul>
-            <li>Products with ratings between 4.6 and 4.9 concentrate the highest average sales volumes — roughly 1,600 to 3,300 units.</li>
-            <li>This suggests an optimal quality-perception zone, where the product is seen as reliable while still maintaining competitive pricing.</li>
-            <li>Rating 4.8 stands out as the leader (3,375 average sales), surpassing even products rated 4.9 (2,146).</li>
-            <li>Consumers may value cost-effectiveness more than perfection. Five-star products are sometimes perceived as “too good to be true” — often niche or more expensive.</li>
+            <li>The “Best Seller” title tends to attract more confident buyers, reducing perceived risk. This creates a cycle of higher sales volume and more positive reviews, which raises the average rating.</li>
+          <h4>Other promotional badges have limited effect.</h4>
+            <li>Brands with temporary labels such as “Limited Time Deal” or “Save 10%” also maintain high ratings (≈4.3–4.5), but this effect is shorter and driven by financial incentives rather than sustained reputation.</li>
+          <h4>Brand authority building.</h4>
+            <li>While coupons and discounts generate momentary spikes in conversion, the Best Seller badge reflects trust accumulated over time — signaling consistency in performance, quality, and customer satisfaction.</li>
           </ul>
-          <h4>📉 Clear Drop Starting at Rating 4.5</h4>
-          <ul>
-            <li>Below the 4.5–4.6 range, there is a consistent decline in average sales volume.</li>
-            <li>From 912 units (rating 4.4) down to 677 (rating 4.1) and 514 (rating 4.0), there is nearly an 80% reduction in purchase engagement.</li>
-            <li>This reinforces that online reputation is a critical decision factor, especially in marketplaces.</li>
-          </ul>
-          <h4>⚠️ Low Ratings: Direct Impact on Conversion</h4>
-          <ul>
-            <li>Products rated below 4.0 or equivalent numeric values (e.g., 30, 20, etc.) show nearly zero sales — averaging under 400 units.</li>
-            <li>Items with ratings below 3.0 or missing ratings almost never generate sales.</li>
-            <li>This indicates that consumers avoid products without an established reputation, even when the price is appealing.</li>
-          </ul>
-          <h4>🔍 Anomalies and Possible Explanations</h4>
-          <ul>
-            <li>Mid-range ratings (e.g., 4.7) outperform some higher ratings (49).</li>
-            <li>Possible explanations include sampling effects (more products rated in this range) or pricing strategy — rating 4.7 may represent the best balance of perceived quality and cost.</li>
-            <li>Very low ratings (1–2) appear with NULL or residual values, suggesting no recorded sales or newly released products with no purchasing history yet.</li>
-          </ul>
-        </li>
-      </ol>
-      <ol>
-        <li>
-          <strong>What Sets "Best Sellers" Apart from Other Products?</strong>
-          <p>
-            The comparison between products labeled as “Best Seller” and all other items (“Others”) reveals clear patterns of commercial success. Best sellers aren’t just top sellers — they are cheaper, have stronger reputations, and rely more on discounts and coupons as conversion triggers.
-          </p>
-          <h4>💰 Price as the Main Driver</h4>
-          <ul>
-            <li>Average original price of Best Sellers: $141.37, compared to $221.35 for others.</li>
-            <li>Best sellers are, on average, 36% cheaper at baseline and even more accessible after discounts ($132.76 vs. $209.38).</li>
-            <li>This shows that competitive value perception is central to sales performance — especially in a price-sensitive marketplace.</li>
-          </ul>
-          <h4>🎯 Strategic Discounts Boost Conversion</h4>
-          <ul>
-            <li>Average discount applied: 9.02% for Best Sellers, compared to 5.79% for other products.</li>
-            <li>Even though this difference looks small, the impact on volume is massive: Best Sellers sell 6,363 units per month, compared to 1,139 in other categories — 5.6× more.</li>
-            <li>This highlights how small price reductions combined with strong credibility (high ratings) can accelerate sales.</li>
-          </ul>
-          <h4>⭐ Perceived Quality Is a Consistent Differentiator</h4>
-          <ul>
-            <li>Average rating of Best Sellers: 4.46, higher than the 4.22 average for other products.</li>
-            <li>An increase of just 0.24 points is enough to significantly influence purchase decisions, proving that consumer trust (via ratings) is nearly as decisive as price.</li>
-          </ul>
-          <h4>🎟️ Coupons as Psychological Triggers</h4>
-          <ul>
-            <li>3.9% of Best Sellers offer coupons, double the rate of other products (1.8%).</li>
-            <li>Even though it’s a small fraction, coupon usage acts as a signal of opportunity — triggering the “good deal” mindset and increasing conversion, especially in mid-priced categories.</li>
-          </ul>
-          <h4>🔍 Summary of Success Characteristics</h4>
-          <ul>
-            <li>Best Sellers stand out by combining four key elements:</li>
-            <li><strong>Competitive pricing</strong> — Lower base price and more accessible final price.</li>
-            <li><strong>Meaningful discounts</strong> — Slightly more aggressive promotional policies.</li>
-            <li><strong>Strong reputation</strong> — Above-average ratings reinforcing trust.</li>
-            <li><strong>Smart offers</strong> — Moderate but strategic use of coupons.</li>
-          </ul>
-        </li>
       </ol>
     </td>
   </tr>
