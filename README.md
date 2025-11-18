@@ -199,145 +199,115 @@ This report presents the results of our analysis — highlighting actionable ins
         <li>
           <strong>The Impact of Discounts on Sales</strong>
           <p>
-            The analysis shows that there is no direct linear correlation between discount percentage and increased sales. Instead, the behavior follows a non-linear and opportunistic pattern: certain discount ranges trigger performance spikes, while others have little to no influence on sales volume.
+            The analysis shows that there is no direct linear correlation between discount percentage and increased sales.
+            Instead, behavior follows a non-linear and opportunistic pattern: some discount ranges trigger strong spikes,
+            while others have little or no influence.
           </p>
           <h4>💡 Key Findings</h4>
           <ul>
-            <li>Moderate discounts (5–8%) show strong conversion potential:</li>
-            <li>Especially 6%, which boosts average sales to 7,333 units, far higher than all other ranges.</li>
-            <li>This suggests that small but noticeable discounts activate a psychological “opportunity trigger” without compromising margins.</li>
-            <li>Intermediate ranges (10–16%) show inconsistent results:</li>
-            <li>Sales vary between 300 and 3,161 units, with no clear pattern of proportional growth.</li>
-            <li>This may indicate promotional saturation — larger discounts don’t necessarily enhance perceived value and may even create suspicion about product quality.</li>
-            <li>Discounts above 20% tend to reduce average impact, but with specific exceptions:</li>
-            <li>The spike at 24% (2,050 units) suggests particular campaigns or product categories where aggressive discounts are effective (likely seasonal, outlet, or high-inventory items).</li>
-            <li>However, similar discounts (21–23%) generate very low volumes — typically 100–250 units — indicating that context matters more than the percentage itself.</li>
+            <li>Moderate discounts (5–8%) show strong conversion potential. Especially 6%, boosting average sales to 7,333 units.</li>
+            <li>Intermediate ranges (10–16%) show inconsistent results, suggesting promotional saturation.</li>
+            <li>Discounts above 20% tend to reduce impact, with exceptions like 24% (2,050 units).</li>
           </ul>
           <h4>📈 Strategic Interpretation</h4>
           <ul>
-            <li>The data reveals that the effectiveness of a discount is not about the percentage, but about how it is perceived:</li>
-            <li>Small discounts (5–8%) perform best on popular, mid-priced products.</li>
-            <li>High discounts (>20%) only work well when paired with strong visibility campaigns or clearance positioning.</li>
-            <li>Intermediate ranges tend to dilute perceived value — customers feel neither urgency nor substantial benefit..</li>
+            <li>The effectiveness of a discount depends on perception, not percentage.</li>
+            <li>Small discounts (5–8%) work best on mid-priced popular products.</li>
+            <li>High discounts (&gt;20%) only work with strong visibility or clearance positioning.</li>
           </ul>
           <h4>🧩 Likely Structural Cause</h4>
           <ul>
-            <li>The erratic pattern (peaks and dips) suggests influence from non-controlled variables, such as:</li>
-            <li>Product category (e.g., premium electronics vs. inexpensive accessories).</li>
-            <li>Seasonality (e.g., promotional spikes during commercial dates).</li>
-            <li>Combination with other incentives (coupons, free shipping, homepage placement).</li>
-            <li>This indicates that discount percentage alone is not a reliable predictor of volume — it must be analyzed alongside rating, base price, and best seller status.</li>
+            <li>Erratic patterns suggest influence from uncontrolled factors:</li>
+            <li>Product category, seasonality, and combined incentives (coupons, free shipping, placement).</li>
+            <li>Discount percentage alone is not a reliable predictor.</li>
           </ul>
         </li>
-      </ol>
-      <ol>
         <li>
           <strong>The Impact of Coupons and Discounts on Conversion</strong>
           <p>
-            The results show that coupons have a significant influence on sales, but in a targeted and non-standardized way. The power of a coupon lies less in the discount amount and more in the perception of immediate benefit and exclusivity.
+            Coupons strongly influence sales, but not uniformly. Their power lies less in value and more
+            in perceived exclusivity and immediacy.
           </p>
-          <h4>💰 Coupons increase sales, but not all have the same effect</h4>
+          <h4>💰 Coupons increase sales, but not equally</h4>
           <ul>
-            <li>Products with active coupons (of any type) sell far more on average compared to products without coupons (1,379 units).</li>
-            <li>The most extreme case — “Save $0.33 with coupon” — reaches 20,000 average sales, with a 4.8 rating, showing that even symbolic incentives can trigger massive volumes.</li>
-            <li>This illustrates the psychological effect of a “visible coupon”: customers are not motivated by the value itself, but by the feeling of “getting something extra.”</li>
+            <li>Products with any coupon sell far more than those without (1,379 units).</li>
+            <li>Extreme case: “Save $0.33 with coupon” reaches 20,000 average sales with 4.8 rating.</li>
+            <li>Psychology matters more than the monetary amount.</li>
           </ul>
-          <h4>📈 Top-performing coupons combine discount + strong reputation</h4>
+          <h4>📈 Best performance: coupon + strong rating</h4>
           <ul>
-            <li>Coupons paired with high ratings (≥4.4) — such as “Save $2.00”, “Save $4.00”, and “Save $1.50” — show average sales between 2,500 and 6,333 units, roughly 3 to 5 times higher than products without coupons.</li>
-            <li>This indicates that product trust (rating) amplifies the coupon’s impact: the customer already trusts the product’s quality, and the discount removes the final barrier to purchase.</li>
+            <li>Coupons with ratings ≥4.4 (Save $1.50–$4.00) reach 2,500–6,333 sales.</li>
+            <li>Trust amplifies the coupon’s impact.</li>
           </ul>
-          <h4>⚠️ Percentage discounts do not guarantee higher conversion</h4>
+          <h4>⚠️ Percent discounts don’t guarantee conversion</h4>
           <ul>
-            <li>Coupons like “Save 25%” or “Save 20%” record much lower average sales (550–833), even though they offer larger reductions.</li>
-            <li>This reinforces that percentage-based coupons are less tangible than fixed dollar amounts (“Save $X”), especially in low-ticket categories.</li>
-            <li>Customers understand the real gain in dollars far better than in percentages.</li>
+            <li>“Save 25%” and “Save 20%” show low sales (550–833).</li>
+            <li>Fixed dollar amounts are easier for customers to interpret.</li>
           </ul>
-          <h4>📉 High-value coupons don’t necessarily attract buyers</h4>
+          <h4>📉 High-value coupons may still underperform</h4>
           <ul>
-            <li>“Save $45.00” and “Save $133.00” show zero or very low sales despite the high discount value.</li>
-            <li>These cases typically correspond to premium products, where customers are less price-sensitive and more driven by brand or performance.</li>
-            <li>There may also be eligibility limits (exclusive or temporary coupons).</li>
+            <li>“Save $45.00” and “Save $133.00” show very low or zero sales.</li>
+            <li>Common in premium categories, where price sensitivity is low.</li>
           </ul>
           <h4>⭐ Direct Comparison — Coupon vs No Coupon</h4>
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Metric</th>
+                <th scope="col">With Coupon</th>
+                <th scope="col">Without Coupon</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Average Sales</td>
+                <td>~3,000–20,000</td>
+                <td>1,379</td>
+              </tr>
+              <tr>
+                <td>Average Rating</td>
+                <td>4.3–4.8</td>
+                <td>4.2</td>
+              </tr>
+              <tr>
+                <td>Product Variety</td>
+                <td>Low (1–7 products per type)</td>
+                <td>High (8,641 products)</td>
+              </tr>
+            </tbody>
+          </table>
           <ul>
-            <table>
-              <thead>
-                <tr>
-                  <th scope="col">Metric</th>
-                  <th scope="col">With Coupon</th>
-                  <th scope="col">Without Coupon</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td data-label="Metric">Average Sales</td>
-                  <td data-label="With Coupon">~3,000–20,000</td>
-                  <td data-label="Without Coupon">1,379</td>
-                </tr>
-                <tr>
-                  <td data-label="Metric">Average Rating</td>
-                  <td data-label="With Coupon">4.3–4.8</td>
-                  <td data-label="Without Coupon">4.2</td>
-                </tr>
-                <tr>
-                  <td data-label="Metric">Product Variety</td>
-                  <td data-label="With Coupon">Low (1–7 products per type)</td>
-                  <td data-label="Without Coupon">High (8,641 products)</td>
-                </tr>
-              </tbody>
-            </table>
             <li>Coupons boost sales intensity but appear in very few products.</li>
-            <li>This suggests a pattern of concentrated return: a small number of coupon campaigns can produce large aggregate impact.</li>
           </ul>
         </li>
-      </ol>
-      <ol>
         <li>
           <strong>Price Elasticity by Category</strong>
           <p>
-            Product categories in electronics show average price variation (elasticity) between 4.6% and 10.9%, indicating a relatively stable market with moderate promotional movement.
+            Electronics categories show elasticity between 4.6% and 10.9%, indicating general stability with moderate promotional movement.
           </p>
-          <p>
-            A few categories, however, stand out as more price-sensitive, reflecting strong competition and high substitution power.
-          </p>
-          <h4>⚡ Most Elastic Categories (highest average price variation)</h4>
+          <h4>⚡ Most Elastic Categories</h4>
           <ul>
-            <li><strong>Printers & Scanners (10.9%)</strong></li>
-            <li>Highest elasticity among all categories.
-The average price dropped from $210.90 to $195.90, suggesting price wars and rapid obsolescence.
-This category is heavily affected by periodic promotions and easily replaceable entry-level models, which push prices downward.</li>
-            <li><strong>Phones (9.9%)</strong></li>
-            <li>A highly competitive, fast-moving segment, especially among mid-tier brands.
-The average 10% discount shows strong consumer price sensitivity, reinforcing the importance of promotional campaigns to capture demand.
-With over 1,300 products, even small variations strongly affect overall revenue.</li>
-            <li><strong>Headphones (9.9%) and Storage (9.3%)</strong></li>
-            <li>Typical low-unit-cost, high-replaceability segments, which explains the elasticity.
-Brands compete more on price and convenience than on technical differentiation.</li>
-            <li><strong>Gaming (9.1%)</strong></li>
-            <li>Indicates high responsiveness to promotions in accessories and peripherals.
-Gaming audiences tend to respond well to short and aggressive discounts — a strong opportunity for seasonal campaigns such as Black Friday or game launches.</li>
+            <li><strong>Printers & Scanners (10.9%)</strong> — strong price wars and obsolescence.</li>
+            <li><strong>Phones (9.9%)</strong> — fast-moving and highly competitive.</li>
+            <li><strong>Headphones (9.9%)</strong> and <strong>Storage (9.3%)</strong> — low cost, high replacement.</li>
+            <li><strong>Gaming (9.1%)</strong> — responds well to aggressive seasonal discounts.</li>
           </ul>
           <h4>🧠 Moderate Elasticity Categories (6–8%)</h4>
           <ul>
-            <li><strong>Chargers & Cables (8.1%)</strong> and <strong>Speakers (6.8%)</strong> show stable variation, with average discounts below 10%.</li>
-            <li>In these cases, price acts as a secondary trigger; brand and compatibility weigh more heavily on purchase decisions.</li>
-            <li><strong>TV & Display (6.7%)</strong>, <strong>Networking (6.6%)</strong>, and <strong>Power & Batteries (6.5%)</strong> show predictable behavior:</li>
-            <li>low promotional appeal but high average ticket, so small discounts still generate significant financial impact.</li>
+            <li><strong>Chargers & Cables (8.1%)</strong> and <strong>Speakers (6.8%)</strong> — brand outweighs price.</li>
+            <li><strong>TV & Display (6.7%)</strong>, <strong>Networking (6.6%)</strong>, <strong>Power & Batteries (6.5%)</strong> — low promotional appeal but high ticket.</li>
           </ul>
-          <h4>💼 Least Elastic Categories (lowest price variation)</h4>
+          <h4>💼 Least Elastic Categories</h4>
           <ul>
-            <li><strong>Other Electronics (4.6%)</strong></li>
-            <li>A generic category with low discount levels and a large number of items (1,954).</li>
-            <li>Signals stable pricing or products with inelastic demand — consumers buy out of necessity, not price.</li>
-            <li><strong>Smart Home (6.0%) and Wearables (6.3%)</strong></li>
-            <li>Innovation-driven and aspirational markets where price has less influence.</li>
-            <li>Consumers value brand, design, and features, making discounts a secondary conversion factor.</li>
+            <li><strong>Other Electronics (4.6%)</strong> — stable pricing with inelastic demand.</li>
+            <li><strong>Smart Home (6.0%)</strong> and <strong>Wearables (6.3%)</strong> — innovation-driven, less price-sensitive.</li>
           </ul>
+        </li>
       </ol>
     </td>
   </tr>
 </table>
+
 
 <section>
   <h3>Customer Behavior and Engagement</h3>
@@ -436,7 +406,3 @@ Gaming audiences tend to respond well to short and aggressive discounts — a st
     </li>
   </ol>
 </section>
-      </ol>
-    </td>
-  </tr>
-</table>
