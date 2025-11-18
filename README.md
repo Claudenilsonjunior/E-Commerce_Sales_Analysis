@@ -339,49 +339,114 @@ Gaming audiences tend to respond well to short and aggressive discounts — a st
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td>
-      <h3>Customer Behavior and Engagement</h3>
-      <ol>
-        <li>
-        <p>This analysis aims to understand not only sales volume but also customer engagement — measured here by the average number of reviews relative to each category’s average sales. The key indicator is the review-to-sales ratio, which shows how many reviews exist, on average, per unit sold.</p>
-        <p> Storage (14) and Gaming (13) stand out with the highest ratios, suggesting strong consumer engagement. These segments usually attract a more technical and participative audience that evaluates products in detail — a sign of active and influential communities around these categories.</p>
+<section>
+  <h3>Customer Behavior and Engagement</h3>
 
-<p>Next, Smart Home and Chargers & Cables (10) also show solid engagement levels. For smart home devices, reviews often reflect real-world usage and system integration; for cables and chargers, engagement signals sensitivity to quality and durability — topics that matter a lot to demanding buyers.</p>
+  <ol>
+    <li>
+      <p>
+        This analysis examines not just sales volume but also customer engagement,
+        measured through the review-to-sales ratio — the average number of reviews
+        per unit sold. This metric reveals how actively customers interact with
+        each category.
+      </p>
 
-<p>On the other hand, high-volume categories like Power & Batteries (2) and Other Electronics (2) show low relative engagement: they sell a lot but generate few reviews. This may indicate impulse purchases, low emotional involvement, or low-ticket products where customers don’t feel it’s worth leaving feedback.</p>
-          <p>
-            Products classified as Normal/Low Price show higher average ratings (4.30) than High Price products (4.02). This indicates that consumers value cost-effectiveness more than luxury or technical sophistication — at least within the context of the electronics e-commerce market.
-          </p>
-          <p>From an executive standpoint, this finding suggests several strategic insights:</p>
-          <h4>Customer satisfaction is not linear with price.</h4>
-          <ul>
-            <li>Buyers of expensive products tend to have higher expectations — and therefore rate more critically when performance or delivery fails to justify the investment. Meanwhile, consumers of more affordable products often reward with higher ratings when they feel the product “delivered more than it cost.”</li>
-          </ul>
-          <h4>The mid-range price tier may represent the “sweet spot” of perceived value.</h4>
-          <ul>
-            <li>The 0.28-point difference in average rating (4.30 vs 4.02) is statistically relevant on platforms like Amazon, where even a tenth of a star can impact conversions. This suggests that the mid-range market (good performance + fair price) is the most appreciated and tends to generate stronger digital reputation.</li>
-          </ul>
-          <h4>Communication strategy for premium products.</h4>
-          <ul>
-            <li>Rather than competing solely on luxury, high-priced brands should emphasize storytelling around quality, durability, and post-sale support — attributes that justify the higher cost and reduce post-purchase dissatisfaction.</li>
-          </ul>
-      </ol>
-      <ol>
+      <p>
+        Storage (14) and Gaming (13) lead with the highest ratios, showing strong,
+        technically engaged communities that review products in detail. Smart Home
+        and Chargers & Cables (10) also show solid engagement: Smart Home buyers
+        evaluate real-world performance and integration, while cable and charger
+        reviews often reflect concerns about durability and build quality.
+      </p>
+
+      <p>
+        High-volume categories such as Power & Batteries (2) and Other Electronics (2)
+        show low engagement relative to their sales. These products sell well but
+        inspire fewer reviews, often signaling impulse buying or low emotional
+        involvement.
+      </p>
+
+      <p>
+        Normal/Low Price products have higher average ratings (4.30) than High Price
+        products (4.02). Customers appear to reward cost-effectiveness more than
+        premium positioning within electronics e-commerce.
+      </p>
+
+      <h4>Customer satisfaction is not proportional to price.</h4>
+      <ul>
         <li>
-          <p>
-            Executively, the data shows that the “Best Seller” badge is directly associated with a higher perception of quality — but not in isolation. It operates as part of a broader set of trust signals within the shopping experience.
-          </p>
-          <p>Products with the “Best Seller” badge have an average rating of about 4.46, higher than regular products (4.22). This difference, while seemingly small, is meaningful in e-commerce: every extra tenth of a star can represent thousands of additional conversions in competitive categories.</p>
-          <h4>The badge acts as a credibility booster.</h4>
-          <ul>
-            <li>The “Best Seller” title tends to attract more confident buyers, reducing perceived risk. This creates a cycle of higher sales volume and more positive reviews, which raises the average rating.</li>
-          <h4>Other promotional badges have limited effect.</h4>
-            <li>Brands with temporary labels such as “Limited Time Deal” or “Save 10%” also maintain high ratings (≈4.3–4.5), but this effect is shorter and driven by financial incentives rather than sustained reputation.</li>
-          <h4>Brand authority building.</h4>
-            <li>While coupons and discounts generate momentary spikes in conversion, the Best Seller badge reflects trust accumulated over time — signaling consistency in performance, quality, and customer satisfaction.</li>
-          </ul>
+          Buyers of expensive products tend to hold higher expectations and rate
+          more critically when performance or delivery does not justify the investment.
+          Meanwhile, affordable products often earn higher ratings when they exceed
+          expectations relative to cost.
+        </li>
+      </ul>
+
+      <h4>The mid-range price tier may represent the strongest perceived value.</h4>
+      <ul>
+        <li>
+          The 0.28-point rating difference (4.30 vs. 4.02) is meaningful on platforms
+          like Amazon, where even a tenth of a star can influence conversions.
+          Mid-range items — good performance at a fair price — tend to earn more
+          consistent digital reputation.
+        </li>
+      </ul>
+
+      <h4>Communication strategy for premium products.</h4>
+      <ul>
+        <li>
+          High-price brands benefit from emphasizing quality, durability, and
+          post-sale support — attributes that justify the investment and help reduce
+          post-purchase dissatisfaction.
+        </li>
+      </ul>
+    </li>
+  </ol>
+
+  <ol start="2">
+    <li>
+      <p>
+        Executively, the data shows that the “Best Seller” badge is associated with
+        a stronger perception of quality — not as a standalone signal, but as part
+        of a broader trust framework within the shopping environment.
+      </p>
+
+      <p>
+        Products carrying the “Best Seller” badge reach an average rating of around
+        4.46, higher than regular items (4.22). In e-commerce, even small rating
+        increments can translate into thousands of additional conversions in
+        competitive markets.
+      </p>
+
+      <h4>The badge operates as a credibility amplifier.</h4>
+      <ul>
+        <li>
+          The title attracts more confident buyers and reduces perceived risk.
+          This drives a cycle of higher sales volume and more positive reviews,
+          reinforcing the rating advantage over time.
+        </li>
+      </ul>
+
+      <h4>Other promotional badges have limited effect.</h4>
+      <ul>
+        <li>
+          Temporary labels like “Limited Time Deal” or “Save 10%” sustain high
+          ratings (≈4.3–4.5), but their impact is shorter and driven by financial
+          incentives rather than long-term brand reputation.
+        </li>
+      </ul>
+
+      <h4>Brand authority building.</h4>
+      <ul>
+        <li>
+          While discounts and coupons boost short-term conversion, the Best Seller
+          badge reflects accumulated trust — signaling consistent performance,
+          quality, and customer satisfaction over time.
+        </li>
+      </ul>
+    </li>
+  </ol>
+</section>
       </ol>
     </td>
   </tr>
