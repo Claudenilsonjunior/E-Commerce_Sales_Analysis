@@ -152,3 +152,41 @@ This report presents the results of our analysis — highlighting actionable ins
     </td>
   </tr>
 </table>
+      <ol>
+        <li>
+          <strong>What Sets "Best Sellers" Apart from Other Products?</strong>
+          <p>
+            The comparison between products labeled as “Best Seller” and all other items (“Others”) reveals clear patterns of commercial success. Best sellers aren’t just top sellers — they are cheaper, have stronger reputations, and rely more on discounts and coupons as conversion triggers.
+          </p>
+          <h4>💰 Price as the Main Driver</h4>
+          <ul>
+            <li>Average original price of Best Sellers: $141.37, compared to $221.35 for others.</li>
+            <li>Best sellers are, on average, 36% cheaper at baseline and even more accessible after discounts ($132.76 vs. $209.38).</li>
+            <li>This shows that competitive value perception is central to sales performance — especially in a price-sensitive marketplace.</li>
+          </ul>
+          <h4>🎯 Strategic Discounts Boost Conversion</h4>
+          <ul>
+            <li>Average discount applied: 9.02% for Best Sellers, compared to 5.79% for other products.</li>
+            <li>Even though this difference looks small, the impact on volume is massive: Best Sellers sell 6,363 units per month, compared to 1,139 in other categories — 5.6× more.</li>
+            <li>This highlights how small price reductions combined with strong credibility (high ratings) can accelerate sales.</li>
+          </ul>
+          <h4>⭐ Perceived Quality Is a Consistent Differentiator</h4>
+          <ul>
+            <li>Average rating of Best Sellers: 4.46, higher than the 4.22 average for other products.</li>
+            <li>An increase of just 0.24 points is enough to significantly influence purchase decisions, proving that consumer trust (via ratings) is nearly as decisive as price.</li>
+          </ul>
+          <h4>🎟️ Coupons as Psychological Triggers</h4>
+          <ul>
+            <li>3.9% of Best Sellers offer coupons, double the rate of other products (1.8%).</li>
+            <li>Even though it’s a small fraction, coupon usage acts as a signal of opportunity — triggering the “good deal” mindset and increasing conversion, especially in mid-priced categories.</li>
+          </ul>
+          <h4>🔍 Summary of Success Characteristics</h4>
+          <ul>
+            <li>Best Sellers stand out by combining four key elements:
+Competitive pricing — Lower base price and more accessible final price.</li>
+            <li>Meaningful discounts — Slightly more aggressive promotional policies.</li>
+            <li>Strong reputation — Above-average ratings reinforcing trust.</li>
+            <li>Smart offers — Moderate but strategic use of coupons.</li>
+          </ul>
+        </li>
+      </ol>
