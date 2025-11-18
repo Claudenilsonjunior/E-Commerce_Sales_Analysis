@@ -118,4 +118,39 @@ This report presents the results of our analysis — highlighting actionable ins
       </ol>
     </td>
   </tr>
+      <ol>
+        <li>
+          <strong>Relationship Between Product Ratings and Sales</strong>
+          <p>
+            The correlation between average rating (product_rating) and average monthly sales volume (purchased_last_month) shows a moderately positive pattern: higher-rated products tend to sell more, but not in a perfectly linear way. There are subtle dynamics that reveal consumer behavior and product positioning.
+          </p>
+          <h4>📊 Key Insights</h4>
+          <ul>
+            <li>Products with ratings between 4.6 and 4.9 concentrate the highest average sales volumes — roughly 1,600 to 3,300 units.</li>
+            <li>This suggests an optimal quality-perception zone, where the product is seen as reliable while still maintaining competitive pricing.</li>
+            <li>Rating 4.8 stands out as the leader (3,375 average sales), surpassing even products rated 4.9 (2,146).</li>
+            <li>Consumers may value cost-effectiveness more than perfection. Five-star products are sometimes perceived as “too good to be true” — often niche or more expensive.</li>
+          </ul>
+          <h4>📉 Clear Drop Starting at Rating 4.5</h4>
+          <ul>
+            <li>Below the 4.5–4.6 range, there is a consistent decline in average sales volume.</li>
+            <li>From 912 units (rating 4.4) down to 677 (rating 4.1) and 514 (rating 4.0), there is nearly an 80% reduction in purchase engagement.</li>
+            <li>This reinforces that online reputation is a critical decision factor, especially in marketplaces.</li>
+          </ul>
+          <h4>⚠️ Low Ratings: Direct Impact on Conversion</h4>
+          <ul>
+            <li>Products rated below 4.0 or equivalent numeric values (e.g., 30, 20, etc.) show nearly zero sales — averaging under 400 units.</li>
+            <li>Items with ratings below 3.0 or missing ratings almost never generate sales.</li>
+            <li>This indicates that consumers avoid products without an established reputation, even when the price is appealing.</li>
+          </ul>
+          <h4>🔍 Anomalies and Possible Explanations</h4>
+          <ul>
+            <li>Mid-range ratings (e.g., 4.7) outperform some higher ratings (49).</li>
+            <li>Possible explanations include sampling effects (more products rated in this range) or pricing strategy — rating 4.7 may represent the best balance of perceived quality and cost.</li>
+            <li>Very low ratings (1–2) appear with NULL or residual values, suggesting no recorded sales or newly released products with no purchasing history yet.</li>
+          </ul>
+        </li>
+      </ol>
+    </td>
+  </tr>
 </table>
