@@ -149,9 +149,6 @@ This report presents the results of our analysis — highlighting actionable ins
           </ul>
         </li>
       </ol>
-    </td>
-  </tr>
-</table>
       <ol>
         <li>
           <strong>What Sets "Best Sellers" Apart from Other Products?</strong>
@@ -190,3 +187,6 @@ Competitive pricing — Lower base price and more accessible final price.</li>
           </ul>
         </li>
       </ol>
+    </td>
+  </tr>
+</table>
