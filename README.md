@@ -115,8 +115,6 @@ This report presents the results of our analysis — highlighting actionable ins
             <li>Tracking their growth can reveal upcoming shifts in consumer behavior.</li>
           </ul>
         </li>
-      </ol>
-      <ol>
         <li>
           <strong>Relationship Between Product Ratings and Sales</strong>
           <p>
@@ -145,8 +143,6 @@ This report presents the results of our analysis — highlighting actionable ins
             <li>Very low ratings (1–2) often come with NULL or minimal sales, possibly due to newly released or poorly reviewed items.</li>
           </ul>
         </li>
-      </ol>
-      <ol>
         <li>
           <strong>What Sets "Best Sellers" Apart from Other Products?</strong>
           <p>
@@ -185,6 +181,7 @@ This report presents the results of our analysis — highlighting actionable ins
     </td>
   </tr>
 </table>
+
 <table>
   <tr>
     <td>
