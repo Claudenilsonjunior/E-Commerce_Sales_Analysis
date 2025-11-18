@@ -115,6 +115,7 @@ This report presents the results of our analysis — highlighting actionable ins
             <li>Tracking their growth can reveal upcoming shifts in consumer behavior.</li>
           </ul>
         </li>
+        <br>
         <li>
           <strong>Relationship Between Product Ratings and Sales</strong>
           <p>
