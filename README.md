@@ -179,11 +179,11 @@ This report presents the results of our analysis — highlighting actionable ins
           </ul>
           <h4>🔍 Summary of Success Characteristics</h4>
           <ul>
-            <li>Best Sellers stand out by combining four key elements:
-Competitive pricing — Lower base price and more accessible final price.</li>
-            <li>Meaningful discounts — Slightly more aggressive promotional policies.</li>
-            <li>Strong reputation — Above-average ratings reinforcing trust.</li>
-            <li>Smart offers — Moderate but strategic use of coupons.</li>
+            <li>Best Sellers stand out by combining four key elements:</li>
+            <li><strong>Competitive pricing</strong> — Lower base price and more accessible final price.</li>
+            <li><strong>Meaningful discounts</strong> — Slightly more aggressive promotional policies.</li>
+            <li><strong>Strong reputation</strong> — Above-average ratings reinforcing trust.</li>
+            <li><strong>Smart offers</strong> — Moderate but strategic use of coupons.</li>
           </ul>
         </li>
       </ol>
