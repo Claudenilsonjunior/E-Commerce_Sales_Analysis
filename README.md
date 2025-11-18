@@ -294,26 +294,45 @@ This report presents the results of our analysis — highlighting actionable ins
       </ol>
       <ol>
         <li>
-          <strong>What Sets "Best Sellers" Apart from Other Products?</strong>
+          <strong>Price Elasticity by Category</strong>
           <p>
-            The comparison between products labeled as “Best Seller” and all other items (“Others”) reveals clear patterns of commercial success. Best sellers aren’t just top sellers — they are cheaper, have stronger reputations, and rely more on discounts and coupons as conversion triggers.
+            Product categories in electronics show average price variation (elasticity) between 4.6% and 10.9%, indicating a relatively stable market with moderate promotional movement.
           </p>
-          <h4>💰 Price as the Main Driver</h4>
+          <p>
+            A few categories, however, stand out as more price-sensitive, reflecting strong competition and high substitution power.
+          </p>
+          <h4>⚡ Most Elastic Categories (highest average price variation)</h4>
           <ul>
-            <li>Average original price of Best Sellers: $141.37, compared to $221.35 for others.</li>
-            <li>Best sellers are, on average, 36% cheaper at baseline and even more accessible after discounts ($132.76 vs. $209.38).</li>
-            <li>This shows that competitive value perception is central to sales performance — especially in a price-sensitive marketplace.</li>
+            <li><strong>Printers & Scanners (10.9%)</strong></li>
+            <li>Highest elasticity among all categories.
+The average price dropped from $210.90 to $195.90, suggesting price wars and rapid obsolescence.
+This category is heavily affected by periodic promotions and easily replaceable entry-level models, which push prices downward.</li>
+            <li><strong>Phones (9.9%)</strong></li>
+            <li>A highly competitive, fast-moving segment, especially among mid-tier brands.
+The average 10% discount shows strong consumer price sensitivity, reinforcing the importance of promotional campaigns to capture demand.
+With over 1,300 products, even small variations strongly affect overall revenue.</li>
+            <li><strong>Headphones (9.9%) and Storage (9.3%)</strong></li>
+            <li>Typical low-unit-cost, high-replaceability segments, which explains the elasticity.
+Brands compete more on price and convenience than on technical differentiation.</li>
+            <li><strong>Gaming (9.1%)</strong></li>
+            <li>Indicates high responsiveness to promotions in accessories and peripherals.
+Gaming audiences tend to respond well to short and aggressive discounts — a strong opportunity for seasonal campaigns such as Black Friday or game launches.</li>
           </ul>
-          <h4>🎯 Strategic Discounts Boost Conversion</h4>
+          <h4>🧠 Moderate Elasticity Categories (6–8%)</h4>
           <ul>
-            <li>Average discount applied: 9.02% for Best Sellers, compared to 5.79% for other products.</li>
-            <li>Even though this difference looks small, the impact on volume is massive: Best Sellers sell 6,363 units per month, compared to 1,139 in other categories — 5.6× more.</li>
-            <li>This highlights how small price reductions combined with strong credibility (high ratings) can accelerate sales.</li>
+            <li><strong>Chargers & Cables (8.1%)</strong> and <strong>Speakers (6.8%)</strong> show stable variation, with average discounts below 10%.</li>
+            <li>In these cases, price acts as a secondary trigger; brand and compatibility weigh more heavily on purchase decisions.</li>
+            <li><strong>TV & Display (6.7%)</strong>, <strong>Networking (6.6%)</strong>, and <strong>Power & Batteries (6.5%)</strong> show predictable behavior:</li>
+            <li>low promotional appeal but high average ticket, so small discounts still generate significant financial impact.</li>
           </ul>
-          <h4>⭐ Perceived Quality Is a Consistent Differentiator</h4>
+          <h4>💼 Least Elastic Categories (lowest price variation)</h4>
           <ul>
-            <li>Average rating of Best Sellers: 4.46, higher than the 4.22 average for other products.</li>
-            <li>An increase of just 0.24 points is enough to significantly influence purchase decisions, proving that consumer trust (via ratings) is nearly as decisive as price.</li>
+            <li><strong>Other Electronics (4.6%)</strong></li>
+            <li>A generic category with low discount levels and a large number of items (1,954).</li>
+            <li>Signals stable pricing or products with inelastic demand — consumers buy out of necessity, not price.</li>
+            <li><strong>Smart Home (6.0%) and Wearables (6.3%)</strong></li>
+            <li>Innovation-driven and aspirational markets where price has less influence.</li>
+            <li>Consumers value brand, design, and features, making discounts a secondary conversion factor.</li>
           </ul>
           <h4>🎟️ Coupons as Psychological Triggers</h4>
           <ul>
