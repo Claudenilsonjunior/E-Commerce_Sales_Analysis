@@ -116,8 +116,6 @@ This report presents the results of our analysis — highlighting actionable ins
           </ul>
         </li>
       </ol>
-    </td>
-  </tr>
       <ol>
         <li>
           <strong>Relationship Between Product Ratings and Sales</strong>
