@@ -190,3 +190,146 @@ This report presents the results of our analysis — highlighting actionable ins
     </td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <td>
+      <h3>Pricing and Discount Strategy</h3>
+      <ol>
+        <li>
+          <strong>The Impact of Discounts on Sales</strong>
+          <p>
+            The analysis shows that there is no direct linear correlation between discount percentage and increased sales. Instead, the behavior follows a non-linear and opportunistic pattern: certain discount ranges trigger performance spikes, while others have little to no influence on sales volume.
+          </p>
+          <h4>💡 Key Findings</h4>
+          <ul>
+            <li>Moderate discounts (5–8%) show strong conversion potential:</li>
+            <li>Especially 6%, which boosts average sales to 7,333 units, far higher than all other ranges.</li>
+            <li>This suggests that small but noticeable discounts activate a psychological “opportunity trigger” without compromising margins.</li>
+            <li>Intermediate ranges (10–16%) show inconsistent results:</li>
+            <li>Sales vary between 300 and 3,161 units, with no clear pattern of proportional growth.</li>
+            <li>This may indicate promotional saturation — larger discounts don’t necessarily enhance perceived value and may even create suspicion about product quality.</li>
+            <li>Discounts above 20% tend to reduce average impact, but with specific exceptions:</li>
+            <li>The spike at 24% (2,050 units) suggests particular campaigns or product categories where aggressive discounts are effective (likely seasonal, outlet, or high-inventory items).</li>
+            <li>However, similar discounts (21–23%) generate very low volumes — typically 100–250 units — indicating that context matters more than the percentage itself.</li>
+          </ul>
+          <h4>📈 Strategic Interpretation</h4>
+          <ul>
+            <li>The data reveals that the effectiveness of a discount is not about the percentage, but about how it is perceived:</li>
+            <li>Small discounts (5–8%) perform best on popular, mid-priced products.</li>
+            <li>High discounts (>20%) only work well when paired with strong visibility campaigns or clearance positioning.</li>
+            <li>Intermediate ranges tend to dilute perceived value — customers feel neither urgency nor substantial benefit..</li>
+          </ul>
+          <h4>🧩 Likely Structural Cause</h4>
+          <ul>
+            <li>The erratic pattern (peaks and dips) suggests influence from non-controlled variables, such as:</li>
+            <li>Product category (e.g., premium electronics vs. inexpensive accessories).</li>
+            <li>Seasonality (e.g., promotional spikes during commercial dates).</li>
+            <li>Combination with other incentives (coupons, free shipping, homepage placement).</li>
+            <li>This indicates that discount percentage alone is not a reliable predictor of volume — it must be analyzed alongside rating, base price, and best seller status.</li>
+          </ul>
+        </li>
+      </ol>
+      <ol>
+        <li>
+          <strong>The Impact of Coupons and Discounts on Conversion</strong>
+          <p>
+            The results show that coupons have a significant influence on sales, but in a targeted and non-standardized way. The power of a coupon lies less in the discount amount and more in the perception of immediate benefit and exclusivity.
+          </p>
+          <h4>💰 Coupons increase sales, but not all have the same effect</h4>
+          <ul>
+            <li>Products with active coupons (of any type) sell far more on average compared to products without coupons (1,379 units).</li>
+            <li>The most extreme case — “Save $0.33 with coupon” — reaches 20,000 average sales, with a 4.8 rating, showing that even symbolic incentives can trigger massive volumes.</li>
+            <li>This illustrates the psychological effect of a “visible coupon”: customers are not motivated by the value itself, but by the feeling of “getting something extra.”</li>
+          </ul>
+          <h4>📈 Top-performing coupons combine discount + strong reputation</h4>
+          <ul>
+            <li>Coupons paired with high ratings (≥4.4) — such as “Save $2.00”, “Save $4.00”, and “Save $1.50” — show average sales between 2,500 and 6,333 units, roughly 3 to 5 times higher than products without coupons.</li>
+            <li>This indicates that product trust (rating) amplifies the coupon’s impact: the customer already trusts the product’s quality, and the discount removes the final barrier to purchase.</li>
+          </ul>
+          <h4>⚠️ Percentage discounts do not guarantee higher conversion</h4>
+          <ul>
+            <li>Coupons like “Save 25%” or “Save 20%” record much lower average sales (550–833), even though they offer larger reductions.</li>
+            <li>This reinforces that percentage-based coupons are less tangible than fixed dollar amounts (“Save $X”), especially in low-ticket categories.</li>
+            <li>Customers understand the real gain in dollars far better than in percentages.</li>
+          </ul>
+          <h4>📉 High-value coupons don’t necessarily attract buyers</h4>
+          <ul>
+            <li>“Save $45.00” and “Save $133.00” show zero or very low sales despite the high discount value.</li>
+            <li>These cases typically correspond to premium products, where customers are less price-sensitive and more driven by brand or performance.</li>
+            <li>There may also be eligibility limits (exclusive or temporary coupons).</li>
+          </ul>
+          <h4>⭐ Direct Comparison — Coupon vs No Coupon</h4>
+          <ul>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Metric</th>
+                  <th scope="col">With Coupon</th>
+                  <th scope="col">Without Coupon</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Metric">Average Sales</td>
+                  <td data-label="With Coupon">~3,000–20,000</td>
+                  <td data-label="Without Coupon">1,379</td>
+                </tr>
+                <tr>
+                  <td data-label="Metric">Average Rating</td>
+                  <td data-label="With Coupon">4.3–4.8</td>
+                  <td data-label="Without Coupon">4.2</td>
+                </tr>
+                <tr>
+                  <td data-label="Metric">Product Variety</td>
+                  <td data-label="With Coupon">Low (1–7 products per type)</td>
+                  <td data-label="Without Coupon">High (8,641 products)</td>
+                </tr>
+              </tbody>
+            </table>
+            <li>Coupons boost sales intensity but appear in very few products.</li>
+            <li>This suggests a pattern of concentrated return: a small number of coupon campaigns can produce large aggregate impact.</li>
+          </ul>
+        </li>
+      </ol>
+      <ol>
+        <li>
+          <strong>What Sets "Best Sellers" Apart from Other Products?</strong>
+          <p>
+            The comparison between products labeled as “Best Seller” and all other items (“Others”) reveals clear patterns of commercial success. Best sellers aren’t just top sellers — they are cheaper, have stronger reputations, and rely more on discounts and coupons as conversion triggers.
+          </p>
+          <h4>💰 Price as the Main Driver</h4>
+          <ul>
+            <li>Average original price of Best Sellers: $141.37, compared to $221.35 for others.</li>
+            <li>Best sellers are, on average, 36% cheaper at baseline and even more accessible after discounts ($132.76 vs. $209.38).</li>
+            <li>This shows that competitive value perception is central to sales performance — especially in a price-sensitive marketplace.</li>
+          </ul>
+          <h4>🎯 Strategic Discounts Boost Conversion</h4>
+          <ul>
+            <li>Average discount applied: 9.02% for Best Sellers, compared to 5.79% for other products.</li>
+            <li>Even though this difference looks small, the impact on volume is massive: Best Sellers sell 6,363 units per month, compared to 1,139 in other categories — 5.6× more.</li>
+            <li>This highlights how small price reductions combined with strong credibility (high ratings) can accelerate sales.</li>
+          </ul>
+          <h4>⭐ Perceived Quality Is a Consistent Differentiator</h4>
+          <ul>
+            <li>Average rating of Best Sellers: 4.46, higher than the 4.22 average for other products.</li>
+            <li>An increase of just 0.24 points is enough to significantly influence purchase decisions, proving that consumer trust (via ratings) is nearly as decisive as price.</li>
+          </ul>
+          <h4>🎟️ Coupons as Psychological Triggers</h4>
+          <ul>
+            <li>3.9% of Best Sellers offer coupons, double the rate of other products (1.8%).</li>
+            <li>Even though it’s a small fraction, coupon usage acts as a signal of opportunity — triggering the “good deal” mindset and increasing conversion, especially in mid-priced categories.</li>
+          </ul>
+          <h4>🔍 Summary of Success Characteristics</h4>
+          <ul>
+            <li>Best Sellers stand out by combining four key elements:</li>
+            <li><strong>Competitive pricing</strong> — Lower base price and more accessible final price.</li>
+            <li><strong>Meaningful discounts</strong> — Slightly more aggressive promotional policies.</li>
+            <li><strong>Strong reputation</strong> — Above-average ratings reinforcing trust.</li>
+            <li><strong>Smart offers</strong> — Moderate but strategic use of coupons.</li>
+          </ul>
+        </li>
+      </ol>
+    </td>
+  </tr>
+</table>
