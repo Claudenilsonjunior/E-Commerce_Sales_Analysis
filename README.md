@@ -94,25 +94,25 @@ This report presents the results of our analysis — highlighting actionable ins
           </p>
           <h4>🥇 Top-Selling Categories</h4>
           <ul>
-            <li><strong>Other Electronics</strong> (2.66M units) and <strong>Laptops</strong> (2.35M units) dominate the market, together accounting for over 40% of the total sales volume.</li>
-            <li>“Other Electronics” likely encompasses a wide range of fast-moving items (such as accessories, parts, or popular gadgets). This suggests a broad and fragmented mix with potential for better segmentation and focus on specific subcategories.</li>
-            <li>Laptops maintain consistent demand, reinforcing the ongoing impact of remote work and mobility as key consumption drivers.</li>
+            <li><strong>Other Electronics</strong> (2.66M units) and <strong>Laptops</strong> (2.35M units) dominate the market, accounting for over 40% of monthly sales.</li>
+            <li>“Other Electronics” likely includes a wide range of fast-moving accessories and gadgets, suggesting a fragmented mix with potential for deeper segmentation.</li>
+            <li>Laptops remain in high demand, supported by remote work trends and mobility needs.</li>
           </ul>
           <h4>📈 Stable Growth Segments</h4>
           <ul>
-            <li><strong>Phones (1.49M)</strong> and <strong>Power & Batteries (1.37M)</strong> remain pillars of consumer demand, reflecting the regular renewal of mobile devices and the constant replacement of essential accessories.</li>
-            <li>These two groups represent recurring consumption and offer opportunities for cross-sell strategies (e.g., smartphone + power bank bundles).</li>
+            <li><strong>Phones (1.49M)</strong> and <strong>Power & Batteries (1.37M)</strong> continue to show strong, recurring consumption patterns.</li>
+            <li>These categories enable cross-selling strategies, such as smartphone + power bank bundles.</li>
           </ul>
           <h4>⚙️ Niche but Strategic Categories</h4>
           <ul>
-            <li><strong>Chargers & Cables (576K)</strong>, <strong>Cameras (498K)</strong>, and <strong>TV & Display (492K)</strong> show moderate volumes, suggesting stable markets with potentially high margins, especially when tied to premium products.</li>
-            <li><strong>Storage, Printers & Scanners, and Networking</strong> appear to be more <strong>B2B-oriented</strong> or <strong>corporate</strong> segments, suitable for targeted campaigns aimed at businesses and home offices.</li>
+            <li><strong>Chargers & Cables (576K)</strong>, <strong>Cameras (498K)</strong>, and <strong>TV & Display (492K)</strong> show moderate but stable demand with high-margin potential.</li>
+            <li><strong>Storage, Printers & Scanners, and Networking</strong> may be more aligned with B2B or home-office use cases.</li>
           </ul>
           <h4>🎧 Low Volume, High Value Potential</h4>
           <ul>
-            <li><strong>Headphones, Speakers, Wearables, Gaming, and Smart Home</strong> together account for less than 10% of total sales.</li>
-            <li>Despite their lower volume, these are high-margin, innovation-driven categories — especially wearables and smart home products, which align with global trends in connectivity and automation.</li>
-            <li>It’s recommended to monitor the growth of these categories closely, as they may signal shifts in consumer behavior in the coming quarters.</li>
+            <li><strong>Headphones, Speakers, Wearables, Gaming, and Smart Home</strong> together represent less than 10% of total sales.</li>
+            <li>Despite lower volume, these categories are driven by innovation and often deliver premium margins.</li>
+            <li>Tracking their growth can reveal upcoming shifts in consumer behavior.</li>
           </ul>
         </li>
       </ol>
@@ -120,32 +120,29 @@ This report presents the results of our analysis — highlighting actionable ins
         <li>
           <strong>Relationship Between Product Ratings and Sales</strong>
           <p>
-            The correlation between average rating (product_rating) and average monthly sales volume (purchased_last_month) shows a moderately positive pattern: higher-rated products tend to sell more, but not in a perfectly linear way. There are subtle dynamics that reveal consumer behavior and product positioning.
+            Ratings show a moderately positive correlation with monthly sales. Higher-rated items sell more, though the pattern isn’t perfectly linear.
           </p>
           <h4>📊 Key Insights</h4>
           <ul>
-            <li>Products with ratings between 4.6 and 4.9 concentrate the highest average sales volumes — roughly 1,600 to 3,300 units.</li>
-            <li>This suggests an optimal quality-perception zone, where the product is seen as reliable while still maintaining competitive pricing.</li>
-            <li>Rating 4.8 stands out as the leader (3,375 average sales), surpassing even products rated 4.9 (2,146).</li>
-            <li>Consumers may value cost-effectiveness more than perfection. Five-star products are sometimes perceived as “too good to be true” — often niche or more expensive.</li>
+            <li>Ratings between <strong>4.6 and 4.9</strong> drive the highest sales — roughly 1,600 to 3,300 units.</li>
+            <li>Rating <strong>4.8</strong> performs best (3,375 average sales), surpassing even some 4.9-rated items.</li>
+            <li>Five-star products can appear expensive or niche, reducing their mainstream appeal.</li>
           </ul>
-          <h4>📉 Clear Drop Starting at Rating 4.5</h4>
+          <h4>📉 Decline Starting at Rating 4.5</h4>
           <ul>
-            <li>Below the 4.5–4.6 range, there is a consistent decline in average sales volume.</li>
-            <li>From 912 units (rating 4.4) down to 677 (rating 4.1) and 514 (rating 4.0), there is nearly an 80% reduction in purchase engagement.</li>
-            <li>This reinforces that online reputation is a critical decision factor, especially in marketplaces.</li>
+            <li>Below 4.5–4.6, average sales steadily drop.</li>
+            <li>4.4-rated products sell around 912 units. 4.1-rated ones drop to 677, and 4.0-rated fall to 514.</li>
+            <li>Reputation remains a core buying factor on online marketplaces.</li>
           </ul>
           <h4>⚠️ Low Ratings: Direct Impact on Conversion</h4>
           <ul>
-            <li>Products rated below 4.0 or equivalent numeric values (e.g., 30, 20, etc.) show nearly zero sales — averaging under 400 units.</li>
-            <li>Items with ratings below 3.0 or missing ratings almost never generate sales.</li>
-            <li>This indicates that consumers avoid products without an established reputation, even when the price is appealing.</li>
+            <li>Ratings below 4.0 — or numeric equivalents like 30 or 20 — show nearly zero sales.</li>
+            <li>Products rated below 3.0 rarely sell; lack of trust outweighs pricing.</li>
           </ul>
-          <h4>🔍 Anomalies and Possible Explanations</h4>
+          <h4>🔍 Anomalies and Patterns</h4>
           <ul>
-            <li>Mid-range ratings (e.g., 4.7) outperform some higher ratings (49).</li>
-            <li>Possible explanations include sampling effects (more products rated in this range) or pricing strategy — rating 4.7 may represent the best balance of perceived quality and cost.</li>
-            <li>Very low ratings (1–2) appear with NULL or residual values, suggesting no recorded sales or newly released products with no purchasing history yet.</li>
+            <li>Some mid-range ratings (4.7) outperform higher ones due to better pricing or higher product availability.</li>
+            <li>Very low ratings (1–2) often come with NULL or minimal sales, possibly due to newly released or poorly reviewed items.</li>
           </ul>
         </li>
       </ol>
@@ -153,44 +150,41 @@ This report presents the results of our analysis — highlighting actionable ins
         <li>
           <strong>What Sets "Best Sellers" Apart from Other Products?</strong>
           <p>
-            The comparison between products labeled as “Best Seller” and all other items (“Others”) reveals clear patterns of commercial success. Best sellers aren’t just top sellers — they are cheaper, have stronger reputations, and rely more on discounts and coupons as conversion triggers.
+            Best sellers combine lower prices, strong ratings, and strategic discounting — a mix that dramatically increases their conversion rates.
           </p>
-          <h4>💰 Price as the Main Driver</h4>
+          <h4>💰 Price as a Key Driver</h4>
           <ul>
-            <li>Average original price of Best Sellers: $141.37, compared to $221.35 for others.</li>
-            <li>Best sellers are, on average, 36% cheaper at baseline and even more accessible after discounts ($132.76 vs. $209.38).</li>
-            <li>This shows that competitive value perception is central to sales performance — especially in a price-sensitive marketplace.</li>
+            <li>Average original price: <strong>$141.37</strong> for Best Sellers vs. <strong>$221.35</strong> for others.</li>
+            <li>Final price after discounts: <strong>$132.76</strong> vs. <strong>$209.38</strong>.</li>
+            <li>Best Sellers are about 36% cheaper at baseline, improving perceived value.</li>
           </ul>
-          <h4>🎯 Strategic Discounts Boost Conversion</h4>
+          <h4>🎯 Discounts Boost Conversion</h4>
           <ul>
-            <li>Average discount applied: 9.02% for Best Sellers, compared to 5.79% for other products.</li>
-            <li>Even though this difference looks small, the impact on volume is massive: Best Sellers sell 6,363 units per month, compared to 1,139 in other categories — 5.6× more.</li>
-            <li>This highlights how small price reductions combined with strong credibility (high ratings) can accelerate sales.</li>
+            <li>Average discount: <strong>9.02%</strong> for Best Sellers vs. <strong>5.79%</strong> for others.</li>
+            <li>Sales volume difference is dramatic: <strong>6,363</strong> units vs. <strong>1,139</strong> — 5.6× more.</li>
           </ul>
-          <h4>⭐ Perceived Quality Is a Consistent Differentiator</h4>
+          <h4>⭐ Reputation Matters</h4>
           <ul>
-            <li>Average rating of Best Sellers: 4.46, higher than the 4.22 average for other products.</li>
-            <li>An increase of just 0.24 points is enough to significantly influence purchase decisions, proving that consumer trust (via ratings) is nearly as decisive as price.</li>
+            <li>Average rating: <strong>4.46</strong> for Best Sellers vs. <strong>4.22</strong> for others.</li>
+            <li>A small rating increase significantly affects purchasing decisions.</li>
           </ul>
-          <h4>🎟️ Coupons as Psychological Triggers</h4>
+          <h4>🎟️ Coupons as Conversion Triggers</h4>
           <ul>
-            <li>3.9% of Best Sellers offer coupons, double the rate of other products (1.8%).</li>
-            <li>Even though it’s a small fraction, coupon usage acts as a signal of opportunity — triggering the “good deal” mindset and increasing conversion, especially in mid-priced categories.</li>
+            <li>Coupon usage: <strong>3.9%</strong> for Best Sellers vs. <strong>1.8%</strong> for others.</li>
+            <li>Coupons enhance perceived opportunity, especially for mid-priced items.</li>
           </ul>
-          <h4>🔍 Summary of Success Characteristics</h4>
+          <h4>🔍 Summary of Success Features</h4>
           <ul>
-            <li>Best Sellers stand out by combining four key elements:</li>
-            <li><strong>Competitive pricing</strong> — Lower base price and more accessible final price.</li>
-            <li><strong>Meaningful discounts</strong> — Slightly more aggressive promotional policies.</li>
-            <li><strong>Strong reputation</strong> — Above-average ratings reinforcing trust.</li>
-            <li><strong>Smart offers</strong> — Moderate but strategic use of coupons.</li>
+            <li><strong>Lower baseline prices</strong></li>
+            <li><strong>More impactful discounts</strong></li>
+            <li><strong>Higher consumer trust (ratings)</strong></li>
+            <li><strong>Smart coupon usage</strong></li>
           </ul>
         </li>
       </ol>
     </td>
   </tr>
 </table>
-
 <table>
   <tr>
     <td>
