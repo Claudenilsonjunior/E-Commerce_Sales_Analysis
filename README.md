@@ -89,6 +89,7 @@ This report presents the results of our analysis — highlighting actionable ins
       <ol>
         <li>
           <strong>Electronic Product Category Performance (Last Month)</strong>
+          <img src="https://imgur.com/EiyQboz" alt="Top Selling Categories">
           <p>
             The analysis of electronic product sales over the last month reveals a strong concentration in a few key categories, highlighting major opportunities for investment and portfolio optimization.
           </p>
@@ -115,9 +116,30 @@ This report presents the results of our analysis — highlighting actionable ins
             <li>Tracking their growth can reveal upcoming shifts in consumer behavior.</li>
           </ul>
         </li>
-        <br>
+        <h3>💡 Strategic Recommendations</h3>
+<section>
+  <ol>
+    <li>
+      <strong>1. Refine Subcategory Insights</strong>
+      <p>Deepen the analysis of “Other Electronics” to identify leading subcategories and avoid decisions based on overly broad aggregations.</p>
+    </li>
+    <li>
+      <strong>2. Strengthen Core Category Allocation</strong>
+      <p>Reinforce inventory and marketing efforts for <strong>Laptops, Phones, and Power & Batteries</strong>, as they sustain the largest and most predictable demand.</p>
+    </li>
+    <li>
+      <strong>3. Expand Accessory Cross-Selling</strong>
+      <p>Explore cross-selling opportunities between accessories and core devices.</p>
+    </li>
+    <li>
+      <strong>4. Monitor Emerging Growth Segments</strong>
+      <p>Track emerging trends in Wearables and Smart Home, which show strong potential for accelerated growth.</p>
+    </li>
+  </ol>
+</section>
         <li>
           <strong>Relationship Between Product Ratings and Sales</strong>
+          <img src="https://imgur.com/1Pm6qWf" alt="Relationship Between Ratings and Sales">
           <p>
             Ratings show a moderately positive correlation with monthly sales. Higher-rated items sell more, though the pattern isn’t perfectly linear.
           </p>
@@ -144,8 +166,31 @@ This report presents the results of our analysis — highlighting actionable ins
             <li>Very low ratings (1–2) often come with NULL or minimal sales, possibly due to newly released or poorly reviewed items.</li>
           </ul>
         </li>
+        <section>
+  <h3>💡 Strategic Recommendations</h3>
+
+  <ol>
+    <li>
+      <strong>1. Prioritize High-Rating Products (4.6–4.9)</strong>
+      <p>Focus on products rated between 46 and 49, as this group delivers higher return per unit and maintains stable reputation.</p>
+    </li>
+    <li>
+      <strong>2. Limit Investment in Low-Rating Items (<4.4) </strong>
+      <p>Avoid allocating campaign budget to products rated below 44 unless they undergo quality improvements or rebranding.</p>
+    </li>
+    <li>
+      <strong>3. Validate Price Elasticity by Rating Tier</strong>
+      <p>Analyze pricing behavior across rating bands to confirm demand elasticity — products rated 47–48 may represent the sweet spot between price and perception.</p>
+    </li>
+    <li>
+      <strong>4. Integrate Review Monitoring Into Sales Dashboards</strong>
+      <p>Include continuous review monitoring in the sales dashboard, integrating satisfaction metrics (CSAT or NPS) with commercial performance.</p>
+    </li>
+  </ol>
+</section>
         <li>
           <strong>What Sets "Best Sellers" Apart from Other Products?</strong>
+          <img src="https://imgur.com/jijb6Yv" alt="Best Sellers vs Others">
           <p>
             Best sellers combine lower prices, strong ratings, and strategic discounting — a mix that dramatically increases their conversion rates.
           </p>
@@ -179,6 +224,28 @@ This report presents the results of our analysis — highlighting actionable ins
           </ul>
         </li>
       </ol>
+      <section>
+  <h3>💡 Strategic Recommendations</h3>
+
+  <ol>
+    <li>
+      <strong>1. Apply Best Seller Pricing Patterns</strong>
+      <p>Replicate the pricing and discount model used by Best Sellers in products rated above 4.3, testing demand sensitivity.</p>
+    </li>
+    <li>
+      <strong>2. Use Rotating Short-Term Coupons</strong>
+      <p>Invest in short-duration rotating coupons to create urgency and capture incremental traffic.</p>
+    </li>
+    <li>
+      <strong>3. Track Early-Stage Product Ratings</strong>
+      <p>Monitor reviews for newly launched products — raising the average rating above 4.4 may be the inflection point needed to enter the “Best Seller” range.</p>
+    </li>
+    <li>
+      <strong>4. Identify High-Response Discount Segments</strong>
+      <p>Run cross-category analysis to determine which product types respond best to moderate discount levels (5–10%).</p>
+    </li>
+  </ol>
+</section>
     </td>
   </tr>
 </table>
@@ -190,6 +257,7 @@ This report presents the results of our analysis — highlighting actionable ins
       <ol>
         <li>
           <strong>The Impact of Discounts on Sales</strong>
+          <img src="https://imgur.com/2TwIL75" alt="Impact of Discounts">
           <p>
             The analysis shows that there is no direct linear correlation between discount percentage and increased sales.
             Instead, behavior follows a non-linear and opportunistic pattern: some discount ranges trigger strong spikes,
@@ -214,8 +282,31 @@ This report presents the results of our analysis — highlighting actionable ins
             <li>Discount percentage alone is not a reliable predictor.</li>
           </ul>
         </li>
+        <section>
+  <h3>💡 Strategic Recommendations</h3>
+
+  <ol>
+    <li>
+      <strong>1. Test Optimal Discount Range</strong>
+      <p>Prioritize A/B tests within the 5–8% discount range, which showed the strongest positive elasticity in demand.</p>
+    </li>
+    <li>
+      <strong>2. Avoid Linear Discount Assumptions</strong>
+      <p>Avoid linear “the higher the discount, the higher the sales” campaigns, since the effect does not hold consistently.</p>
+    </li>
+    <li>
+      <strong>3. Analyze Combined Conversion Drivers</strong>
+      <p>Evaluate the combined impact of discount + rating + coupon + category to reveal the true conversion inflection points.</p>
+    </li>
+    <li>
+      <strong>4. Develop a Price Elasticity Model</strong>
+      <p>Plan to build a price elasticity model that links the percentage change in discount to the percentage change in volume, allowing sensitivity quantification by product type.</p>
+    </li>
+  </ol>
+</section>
         <li>
           <strong>The Impact of Coupons and Discounts on Conversion</strong>
+          <img src="https://imgur.com/QO8bvYD" alt="Impact of Coupons">
           <p>
             Coupons strongly influence sales, but not uniformly. Their power lies less in value and more
             in perceived exclusivity and immediacy.
@@ -272,8 +363,35 @@ This report presents the results of our analysis — highlighting actionable ins
             <li>Coupons boost sales intensity but appear in very few products.</li>
           </ul>
         </li>
+        <section>
+  <h3>💡 Strategic Recommendations</h3>
+
+  <ol>
+    <li>
+      <strong>1. Prioritize Coupons for High-Rated Products</strong>
+      <p>Prioritize coupons on products with a rating ≥ 4.4, where strong reputation amplifies the incentive’s effect.</p>
+    </li>
+    <li>
+      <strong>2. Use Fixed-Value Coupons for Stronger Impact</strong>
+      <p>Prefer fixed-value coupons ($X) over percentage discounts, making the benefit more tangible and persuasive.</p>
+    </li>
+    <li>
+      <strong>3. Avoid Excessively High Coupons</strong>
+      <p>Avoid very high coupon values, which can create a perception of devaluation or poor product quality.</p>
+    </li>
+    <li>
+      <strong>4. Use Coupons as Visibility Boosters</strong>
+      <p>Leverage coupons as a visibility tool, especially for new or recently launched products — the coupon badge alone increases clicks and purchase intent.</p>
+    </li>
+    <li>
+      <strong>5. Experiment With Micro-Coupons</strong>
+      <p>Test campaigns using micro-coupons (e.g., Save $0.50), which have shown disproportionately strong performance.</p>
+    </li>
+  </ol>
+</section>
         <li>
           <strong>Price Elasticity by Category</strong>
+          <img src="https://imgur.com/NITVs7V" alt="Price Elasticity">
           <p>
             Electronics categories show elasticity between 4.6% and 10.9%, indicating general stability with moderate promotional movement.
           </p>
@@ -296,105 +414,166 @@ This report presents the results of our analysis — highlighting actionable ins
           </ul>
         </li>
       </ol>
+      <section>
+  <h3>💡 Strategic Recommendations</h3>
+  <ol>
+    <li>
+      <strong>1. Use Tactical Discounts in Elastic Categories</strong>
+      <p>Apply tactical discounts in highly elastic categories (Phones, Headphones, Printers): small adjustments (<10%) can generate substantial volume returns.</p>
+    </li>
+    <li>
+      <strong>2. Prioritize Differentiation in Inelastic Categories</strong>
+      <p>Focus on differentiation and branding in inelastic categories (Smart Home, Wearables), where price is not the primary decision driver.</p>
+    </li>
+    <li>
+      <strong>3. Implement Dynamic Pricing Models</strong>
+      <p>Incorporate elasticity as a predictive variable in sales forecasting models, adjusting prices based on historical sensitivity.</p>
+    </li>
+    <li>
+      <strong>4. Optimize the Promotional Mix</strong>
+      <p>Concentrate promotional efforts on categories with high elasticity and meaningful volume, reducing margin erosion in less responsive segments.</p>
+    </li>
+  </ol>
+</section>
     </td>
   </tr>
 </table>
 
 
-<section>
+<table>
   <h3>Customer Behavior and Engagement</h3>
 
   <ol>
     <li>
+      <strong>Reviews and Sales</strong>
+      <img src="https://imgur.com/lqr0xCF" alt="Reviews per Category">
       <p>
-        This analysis examines not just sales volume but also customer engagement,
-        measured through the review-to-sales ratio — the average number of reviews
-        per unit sold. This metric reveals how actively customers interact with
-        each category.
+        The review-to-sales ratio reveals how engaged customers are with each
+        product category. This metric exposes something that raw sales numbers
+        hide: <strong>people don’t review everything they buy</strong> — they review what
+        surprises them, disappoints them, or requires technical understanding.
       </p>
       <p>
-        Storage (14) and Gaming (13) lead with the highest ratios, showing strong,
-        technically engaged communities that review products in detail. Smart Home
-        and Chargers & Cables (10) also show solid engagement: Smart Home buyers
-        evaluate real-world performance and integration, while cable and charger
-        reviews often reflect concerns about durability and build quality.
+        <strong>Storage</strong> stands out with the highest engagement. These products
+        attract buyers who deliberate more, compare specs carefully, and leave
+        detailed feedback. <strong>Chargers & Cables</strong> also show high engagement 
+        relative to their modest sales volume, suggesting that even small-ticket 
+        accessories can shape customer trust in the electronics ecosystem.
       </p>
       <p>
-        High-volume categories such as Power & Batteries (2) and Other Electronics (2)
-        show low engagement relative to their sales. These products sell well but
-        inspire fewer reviews, often signaling impulse buying or low emotional
-        involvement.
+        Meanwhile, high-volume categories like <strong>Power & Batteries</strong> and
+        <strong>Other Electronics</strong> show the opposite pattern: they sell a lot but
+        generate very few reviews. This indicates <strong>low emotional involvement</strong>
+        and fast, low-risk purchases — great for revenue, but weak for community
+        feedback loops.
       </p>
+      <section>
+  <h3>💡 Strategic Recommendations</h3>
+
+  <ol>
+    <li>
+      <strong>1. Leverage Seasonal High-Impact Discounts</strong>
+      <p>The company can apply more substantial discounts during strategic periods (e.g., seasonal campaigns) without harming product value perception. This approach can boost sales volume and inventory turnover, especially in categories previously identified as having strong price elasticity.</p>
+    </li>
+  </ol>
+  </p>
+</section>
+      <strong>Rating vs Price</strong>
+      <img src="https://imgur.com/9gPAOIY" alt="Rating vs Price">
       <p>
-        Normal/Low Price products have higher average ratings (4.30) than High Price
-        products (4.02). Customers appear to reward cost-effectiveness more than
-        premium positioning within electronics e-commerce.
+        Across the marketplace, lower and mid-priced products consistently achieve
+        higher ratings (4.30) than premium items (4.02). This reinforces a key
+        behavioral pattern in e-commerce: <strong>customers reward value, not price tags</strong>.
       </p>
-      <h4>Customer satisfaction is not proportional to price.</h4>
+      <h4>Price raises expectations faster than it raises satisfaction.</h4>
       <ul>
         <li>
-          Buyers of expensive products tend to hold higher expectations and rate
-          more critically when performance or delivery does not justify the investment.
-          Meanwhile, affordable products often earn higher ratings when they exceed
-          expectations relative to cost.
+          Premium buyers evaluate products more critically. When performance,
+          durability, or delivery falls short of the price, even slightly,
+          ratings drop sharply.
+        </li>
+        <li>
+          Affordable products benefit from the opposite effect: when they deliver
+          more than expected for the price, customers respond generously.
         </li>
       </ul>
-      <h4>The mid-range price tier may represent the strongest perceived value.</h4>
+      <h4>The mid-price range creates the strongest reputation.</h4>
       <ul>
         <li>
-          The 0.28-point rating difference (4.30 vs. 4.02) is meaningful on platforms
-          like Amazon, where even a tenth of a star can influence conversions.
-          Mid-range items — good performance at a fair price — tend to earn more
-          consistent digital reputation.
+          The 0.28 rating gap is small on paper but highly influential in
+          marketplaces — a tenth of a star can shift thousands of conversions.
+        </li>
+        <li>
+          Mid-range products strike the balance between cost and performance,
+          producing more stable and trustworthy reputations.
         </li>
       </ul>
-      <h4>Communication strategy for premium products.</h4>
+      <h4>Premium positioning requires storytelling.</h4>
       <ul>
         <li>
-          High-price brands benefit from emphasizing quality, durability, and
-          post-sale support — attributes that justify the investment and help reduce
-          post-purchase dissatisfaction.
+          High-price categories need stronger communication: durability,
+          guarantees, real-world performance, and post-sale support.
+          Without these anchors, ratings tend to penalize the brand.
         </li>
       </ul>
     </li>
   </ol>
-  <ol start="2">
+<section>
+  <h3>💡 Strategic Recommendations</h3>
+
+  <ol>
     <li>
-      <p>
-        Executively, the data shows that the “Best Seller” badge is associated with
-        a stronger perception of quality — not as a standalone signal, but as part
-        of a broader trust framework within the shopping environment.
-      </p>
-      <p>
-        Products carrying the “Best Seller” badge reach an average rating of around
-        4.46, higher than regular items (4.22). In e-commerce, even small rating
-        increments can translate into thousands of additional conversions in
-        competitive markets.
-      </p>
-      <h4>The badge operates as a credibility amplifier.</h4>
-      <ul>
-        <li>
-          The title attracts more confident buyers and reduces perceived risk.
-          This drives a cycle of higher sales volume and more positive reviews,
-          reinforcing the rating advantage over time.
-        </li>
-      </ul>
-      <h4>Other promotional badges have limited effect.</h4>
-      <ul>
-        <li>
-          Temporary labels like “Limited Time Deal” or “Save 10%” sustain high
-          ratings (≈4.3–4.5), but their impact is shorter and driven by financial
-          incentives rather than long-term brand reputation.
-        </li>
-      </ul>
-      <h4>Brand authority building.</h4>
-      <ul>
-        <li>
-          While discounts and coupons boost short-term conversion, the Best Seller
-          badge reflects accumulated trust — signaling consistent performance,
-          quality, and customer satisfaction over time.
-        </li>
-      </ul>
+      <strong>1. Prioritize High-Engagement Categories</strong>
+      <p>Categories with a high review-to-sales ratio should be prioritized for organic marketing and loyalty programs, since spontaneous engagement is highly valuable for credibility and SEO.</p>
+    </li>
+    <li>
+      <strong>2. Boost Engagement in Low-Interaction Segments</strong>
+      <p>Low-engagement categories can benefit from review-incentive campaigns (e.g., discounts on future purchases, “thank-you” coupons), increasing social proof and customer confidence.</p>
     </li>
   </ol>
 </section>
+  <ol start="2">
+    <li>
+      <strong>Best Sellers</strong>
+      <img src="https://imgur.com/20OHnli" alt="Influence of Best Sellers">
+      <p>
+        Products carrying the <strong>“Best Seller”</strong> badge reach an average rating of
+        4.46 — noticeably higher than regular items (4.22). This shows that the
+        badge doesn’t create quality out of thin air; it amplifies it. The badge
+        acts as a <strong>credibility accelerator</strong>.
+      </p>
+      <h4>A badge that reinforces a flywheel of trust.</h4>
+      <ul>
+        <li>
+          More visibility → more sales → more reviews → higher ratings → more visibility.
+        </li>
+        <li>
+          Once the flywheel starts, it becomes difficult for competing products
+          to catch up without aggressive pricing or stronger reputation signals.
+        </li>
+      </ul>
+      <h4>Short-term badges don’t build long-term trust.</h4>
+      <ul>
+        <li>
+          Promotions like “Limited Time Deal” or “Save 10%” maintain good ratings
+          (≈4.3–4.5), but their effects expire with the discount.
+        </li>
+        <li>
+          These labels drive <strong>transactions</strong>, not <strong>brand equity</strong>.
+        </li>
+      </ul>
+      <h4>Best Sellers represent accumulated authority.</h4>
+      <ul>
+        <li>
+          The badge isn't only about volume; it reflects consistency, delivery
+          reliability, and positive user experience over time.
+        </li>
+        <li>
+          Brands aiming for long-term dominance should focus less on discounts
+          and more on hitting the attributes that feed this credibility loop.
+        </li>
+      </ul>
+    </li>
+  </ol>
+</table>
+
