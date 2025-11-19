@@ -537,7 +537,7 @@ This report presents the results of our analysis — highlighting actionable ins
   <ol start="2">
     <li>
       <strong>Best Sellers</strong>
-      <img src="https://imgur.com/20OHnli" alt="Influence of Best Sellers">
+      <img src="https://imgur.com/20OHnli.jpg" alt="Influence of Best Sellers">
       <p>
         Products carrying the <strong>“Best Seller”</strong> badge reach an average rating of
         4.46 — noticeably higher than regular items (4.22). This shows that the
