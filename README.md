@@ -441,6 +441,8 @@ This report presents the results of our analysis — highlighting actionable ins
 
 
 <table>
+  <tr>
+  <td>
   <h3>Customer Behavior and Engagement</h3>
 
   <ol>
@@ -575,5 +577,7 @@ This report presents the results of our analysis — highlighting actionable ins
       </ul>
     </li>
   </ol>
+  </td>
+  </tr>
 </table>
 
