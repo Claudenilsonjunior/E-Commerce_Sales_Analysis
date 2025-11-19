@@ -71,13 +71,13 @@ This report presents the results of our analysis — highlighting actionable ins
 <tr>
     <h1 align="center">Sales Trend</h1>
     <td width="1000">
-      <img width="300" src="">
+      <img width="300" src="https://imgur.com/F5tmLm5.jpg">
     </td>
     <td width="1000">
-      <img width="300" src="">
+      <img width="300" src="https://imgur.com/DsLlrBs.jpg">
     </td>
     <td width="1000">
-      <img width="300" src="">
+      <img width="300" src="https://imgur.com/sA7jVXg.jpg">
     </td>
   </tr>
 </table>
