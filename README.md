@@ -536,7 +536,7 @@ This report presents the results of our analysis — highlighting actionable ins
 </section>
   <ol start="2">
     <li>
-      <strong>Best Sellers</strong>
+      <strong>Best Sellers</strong><br><br>
       <img src="https://imgur.com/20OHnli.jpg" alt="Influence of Best Sellers">
       <p>
         Products carrying the <strong>“Best Seller”</strong> badge reach an average rating of
