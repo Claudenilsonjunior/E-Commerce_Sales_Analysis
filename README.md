@@ -89,7 +89,7 @@ This report presents the results of our analysis — highlighting actionable ins
       <ol>
         <li>
           <strong>Electronic Product Category Performance (Last Month)</strong><br><br>
-          <img src="https://imgur.com/EiyQboz.jpg" alt="Top Selling Categories">
+          <img src="https://imgur.com/0fQ3K0B.jpg" alt="Top Selling Categories">
           <p>
             The analysis of electronic product sales over the last month reveals a strong concentration in a few key categories, highlighting major opportunities for investment and portfolio optimization.
           </p>
