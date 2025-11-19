@@ -88,8 +88,8 @@ This report presents the results of our analysis — highlighting actionable ins
       <h3>Sales and Product Performance</h3>
       <ol>
         <li>
-          <strong>Electronic Product Category Performance (Last Month)</strong>
-          <img src="https://imgur.com/EiyQboz" alt="Top Selling Categories">
+          <strong>Electronic Product Category Performance (Last Month)</strong><br><br>
+          <img src="https://imgur.com/EiyQboz.jpg" alt="Top Selling Categories">
           <p>
             The analysis of electronic product sales over the last month reveals a strong concentration in a few key categories, highlighting major opportunities for investment and portfolio optimization.
           </p>
@@ -138,8 +138,8 @@ This report presents the results of our analysis — highlighting actionable ins
   </ol>
 </section>
         <li>
-          <strong>Relationship Between Product Ratings and Sales</strong>
-          <img src="https://imgur.com/1Pm6qWf" alt="Relationship Between Ratings and Sales">
+          <strong>Relationship Between Product Ratings and Sales</strong><br><br>
+          <img src="https://imgur.com/1Pm6qWf.jpg" alt="Relationship Between Ratings and Sales">
           <p>
             Ratings show a moderately positive correlation with monthly sales. Higher-rated items sell more, though the pattern isn’t perfectly linear.
           </p>
@@ -189,8 +189,8 @@ This report presents the results of our analysis — highlighting actionable ins
   </ol>
 </section>
         <li>
-          <strong>What Sets "Best Sellers" Apart from Other Products?</strong>
-          <img src="https://imgur.com/jijb6Yv" alt="Best Sellers vs Others">
+          <strong>What Sets "Best Sellers" Apart from Other Products?</strong><br><br>
+          <img src="https://imgur.com/jijb6Yv.jpg" alt="Best Sellers vs Others">
           <p>
             Best sellers combine lower prices, strong ratings, and strategic discounting — a mix that dramatically increases their conversion rates.
           </p>
@@ -256,8 +256,8 @@ This report presents the results of our analysis — highlighting actionable ins
       <h3>Pricing and Discount Strategy</h3>
       <ol>
         <li>
-          <strong>The Impact of Discounts on Sales</strong>
-          <img src="https://imgur.com/2TwIL75" alt="Impact of Discounts">
+          <strong>The Impact of Discounts on Sales</strong><br><br>
+          <img src="https://imgur.com/2TwIL75.jpg" alt="Impact of Discounts">
           <p>
             The analysis shows that there is no direct linear correlation between discount percentage and increased sales.
             Instead, behavior follows a non-linear and opportunistic pattern: some discount ranges trigger strong spikes,
@@ -305,8 +305,8 @@ This report presents the results of our analysis — highlighting actionable ins
   </ol>
 </section>
         <li>
-          <strong>The Impact of Coupons and Discounts on Conversion</strong>
-          <img src="https://imgur.com/QO8bvYD" alt="Impact of Coupons">
+          <strong>The Impact of Coupons and Discounts on Conversion</strong><br><br>
+          <img src="https://imgur.com/QO8bvYD.jpg" alt="Impact of Coupons">
           <p>
             Coupons strongly influence sales, but not uniformly. Their power lies less in value and more
             in perceived exclusivity and immediacy.
@@ -390,8 +390,8 @@ This report presents the results of our analysis — highlighting actionable ins
   </ol>
 </section>
         <li>
-          <strong>Price Elasticity by Category</strong>
-          <img src="https://imgur.com/NITVs7V" alt="Price Elasticity">
+          <strong>Price Elasticity by Category</strong><br><br>
+          <img src="https://imgur.com/NITVs7V.jpg" alt="Price Elasticity">
           <p>
             Electronics categories show elasticity between 4.6% and 10.9%, indicating general stability with moderate promotional movement.
           </p>
@@ -447,8 +447,8 @@ This report presents the results of our analysis — highlighting actionable ins
 
   <ol>
     <li>
-      <strong>Reviews and Sales</strong>
-      <img src="https://imgur.com/lqr0xCF" alt="Reviews per Category">
+      <strong>Reviews and Sales</strong><br><br>
+      <img src="https://imgur.com/lqr0xCF.jpg" alt="Reviews per Category">
       <p>
         The review-to-sales ratio reveals how engaged customers are with each
         product category. This metric exposes something that raw sales numbers
@@ -480,8 +480,8 @@ This report presents the results of our analysis — highlighting actionable ins
   </ol>
   </p>
 </section>
-      <strong>Rating vs Price</strong>
-      <img src="https://imgur.com/9gPAOIY" alt="Rating vs Price">
+      <strong>Rating vs Price</strong><br><br>
+      <img src="https://imgur.com/9gPAOIY.jpg" alt="Rating vs Price">
       <p>
         Across the marketplace, lower and mid-priced products consistently achieve
         higher ratings (4.30) than premium items (4.02). This reinforces a key
